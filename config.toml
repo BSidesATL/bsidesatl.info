@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://bsidesatl.org/"
+baseurl = "https://bsidesatl.info/"
 languageCode = "en-us"
 title = "BSidesATL"
 theme = "agency"

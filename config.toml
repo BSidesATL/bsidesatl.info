@@ -1,0 +1,475 @@
+# Site settings
+baseurl = "https://bsidesatl.org/"
+languageCode = "en-us"
+title = "BSidesATL"
+theme = "agency"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "bsidesatl"
+  description = "Bsides Atlanta"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = true
+
+  # Enable the BSidesATL Twitter Card image
+  socialCard = true
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "BSidesATL"
+    # Optional logo as brand stored in img/
+    logo = "bsidesatl-light-rgb.png"
+    about = "About"
+    news = "News"
+    team = "Organizers"
+    schedule = "Schedule"
+    training = "Training"
+    contact = "Contact"
+    sponsors = "Sponsors"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "BSides Atlanta 2022"
+    subtitle = "Saturday, August 27th"
+    slogan = "Theme:  Re-Engage.  Re-Imagine.  Re-Ignite."
+
+    # [[params.hero.links]]
+      # link = "https://ti.to/bsidesatl/bsidesatl2020/"
+      # text = "Tickets"
+
+    [[params.hero.links]]
+      link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
+      text = "Join our Slack"
+
+    [[params.hero.links]]
+      link = "https://www.youtube.com/c/BSidesATL"
+      text = "YouTube"
+
+    # [[params.hero.links]]
+    #  link = "https://bsidesatl2020shirts.itemorder.com"
+    #  text = "Buy 2020 Shirts"
+
+    [[params.hero.links]]
+      link = "https://bsidesatl.itemorder.com/sale"
+      text = "Buy Swag"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About Security BSides"
+    text = '''
+Each BSides is a **community-driven** framework for building events for and by information security community members.  The goal is to expand the spectrum of conversation beyond the traditional confines of space and time.  It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
+
+'''
+
+[params.news]
+   enable = true
+   title = "BSides Atlanta 2022 announcement"
+   subtitle = "BSides Atlanta is set for Saturday, August 27th"
+   text = '''
+
+We are excited to announce that BSides Atlanta 2022 is scheduled for Saturday, August 27th at the KSU Center in Kennesaw, Georgia!
+
+After the events of the last two years, we thought a theme of "Re-Engage.  Re-Imagine.  Re-Ignite." seemed appropriate!
+
+We will open the CFP website on June 3rd, with a deadline of June 24th.  We will welcome talks of either 20 or 50 minutes.
+
+We are really excited about getting back together with everyone, and we cannot wait to see you all in August!
+
+BSides Atlanta Organizers
+
+Yvette, Joetta, and Andy
+
+'''
+
+    # About section
+  [params.schedule]
+    enable = false
+    title = "Schedule"
+
+  # Team section
+
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "BSides Atlanta organizers"
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "johnson2.jpg"
+      name = "Yvette Johnson"
+      #position = "Lead Designer"
+      #reportsTo = "CTO"
+      #livesIn = "[Munich, Germany](#some-maps-url)"
+      #scope = [
+      #  "UX for [member dashboard](#)",
+      #  "Maintainer for [awesome-project](#)",
+      #  "Open Source [community management](#)"
+      #]
+      # For bio markdown and even multiline strings are available.
+      bio = """Yvette is the Managing Partner at Passpoint Security"""
+      social = [
+        ["fa-twitter", "https://twitter.com/JetSetYvette"],
+        ["fa-linkedin", "https://www.linkedin.com/in/yvette-johnson-01806b7/"]
+      ]
+
+      [[params.team.members]]
+        img = "lesueur.jpg"
+        name = "JoEtta LeSueur"
+        #position = "Lead Designer"
+        #reportsTo = "CTO"
+        #livesIn = "[Munich, Germany](#some-maps-url)"
+        #scope = [
+        #  "UX for [member dashboard](#)",
+        #  "Maintainer for [awesome-project](#)",
+        #  "Open Source [community management](#)"
+        #]
+        # For bio markdown and even multiline strings are available.
+        bio = """Jo is an experienced security professional as well an Adjunct Professor with a demonstrated history of working in the agile secure software development lifecycle."""
+        social = [
+          ["fa-twitter", "https://twitter.com/SheRaRox"],
+          ["fa-linkedin", "https://www.linkedin.com/in/joettalesueur/"]
+        ]
+
+    [[params.team.members]]
+      img = "green2.jpg"
+      name = "Dr. Andy Green"
+      #position = "Lead Designer"
+      #reportsTo = "CTO"
+      #livesIn = "[Munich, Germany](#some-maps-url)"
+      #scope = [
+      #  "UX for [member dashboard](#)",
+      #  "Maintainer for [awesome-project](#)",
+      #  "Open Source [community management](#)"
+      #]
+      # For bio markdown and even multiline strings are available.
+      bio = """Andy is an Assistant Professor at KSU"""
+      social = [
+        ["fa-twitter", "https://twitter.com/AndyGreenPhD"],
+        ["fa-linkedin", "https://www.linkedin.com/in/andygreenphd/"]
+      ]
+
+  # Speakers section
+  [params.speakers]
+    enable = false
+    # Possibility to center items
+    #center = true
+    title = "Our amazing speakers"
+    subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+    # All speakers member's pictures are stored under 'static/img/speakers'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.speakers.members]]
+      name = "Dave Shackleford"
+      position = "Keynote: Software-Defined Everything, and What That Means to Security"
+      company = "Voodoo Security"
+      bio = """Dave is the CEO and Principal Consultant with Voodoo Security, and has consulted with hundreds of organizations in the areas of security, regulatory compliance, and network architecture and engineering. Dave is also Lead Faculty at IANS, a SANS analyst, instructor, and course author, and a board member with the SANS Technology Institute. He is a VMware vExpert, and has extensive experience designing and configuring secure virtualized infrastructures. He's the author of the Sybex book ""Virtualization Security: Protecting Virtualized Environments"", leads the Atlanta chapter of the Cloud Security Alliance, and co-chairs the CSA Top Threats to Cloud Working Group. Dave has previously worked as CSO for Configuresoft, CTO for the Center for Internet Security, and has also worked as a security architect, analyst, and manager for several Fortune 500 companies."""
+      social = [
+       ["fa-twitter", "https://twitter.com/daveshackleford"],
+       ["fa-twitter", "https://twitter.com/voodoosecurity"],
+      ]
+    [[params.speakers.members]]
+      name = "Amber Welch"
+      position = "Data Access Rights Exploits under New Privacy Laws"
+      bio = """Until she’s accepted for a Mars mission, Amber Welch is pursuing the advancement of personal information privacy and data protection as a Privacy Technical Lead for Schellman & Company. Amber has been assessing corporate privacy compliance programs for the past year and prior to that, managed security and privacy governance for a suite of SaaS products. She has previously worked in companies creating ERP, CRM, event planning, and biologics manufacturing software."""
+      social = [
+       ["fa-twitter", "https://twitter.com/MsAmberWelch"],
+      ]
+    [[params.speakers.members]]
+      name = "Ben Knowles"
+      position = "Preparing for your Cybersecurity Career"
+      bio = """Ben S. Knowles is a professional computer security consultant and educator in the Atlanta, Georgia, USA area. Ben presents at local groups and conferences on analysis, forensics, and security education, leads Community classes on defense, response, and analysis with the SANS Institute and has bugs and patches in a few public tools. Ben is a consultant on the incident response team of a global firm."""
+      social = [
+       ["fa-twitter", "https://twitter.com/dfirnotes"],
+      ]
+    [[params.speakers.members]]
+      name = "Brian Contos"
+      position = "HACKERS, HOOLIGANS, HEISTS, & HISTORY"
+      bio = """Brian Contos is the CISO & VP, Technology Innovation at Verodin. He is a seasoned executive with over two decades of experience in the cybersecurity industry as well as a board advisor, entrepreneur, and author. After getting his start in cybersecurity with the Defense Information Systems Agency (DISA) and later Bell Labs, he began the process of building cybersecurity startups and taking multiple companies through successful IPOs and acquisitions, including Riptech, ArcSight, Imperva, McAfee, and Solera Networks. Brian has worked in over 50 countries across six continents. He is a board advisor for Cylance, JASK, Appdome, and the University of South Florida. He has authored several books, his latest with the former Deputy Director of the NSA, spoken at leading security events globally such as Black Hat, RSA, and BSides, and has been on C-SPAN, Fox, CNBC, CBS News, Bloomberg, and many others. Brian is a Distinguished Fellow with the Ponemon Institute and an Official Member of the Forbes Technology Council. Brian was recently featured in a cyberwar documentary alongside General Michael Hayden (former Director NSA and CIA)."""
+      social = [
+       ["fa-twitter", "https://twitter.com/briancontos"],
+       ["fa-linkedin", "https://www.linkedin.com/in/briancontos/"],
+      ]
+    [[params.speakers.members]]
+      name = "Hudson Bush"
+      position = "Too Small to Fail: Securing Small and Medium Businesses"
+      bio = """Hudson Bush is a Security Architect that injects Threat Modeling into everything he does. He mostly works with Government Regulatory Compliance, Risk Management, and Business Impact Analysis. His goal is to teach others about the mistakes that he has made so that others don’t have to repeat them."""
+      social = [
+       ["fa-twitter", "https://twitter.com/HomeBrewedSec"],
+      ]
+    [[params.speakers.members]]
+      name = "Ismaelle Vixsama"
+      position = "Cyberstalking: A Privacy Issue"
+      bio = """Ismaelle is an Information Security Governance and Strategy professional with experience working with Security Governance programs across Financial Services and Public Sector. Her compliance specialties include ISO 2700X, NIST, GLBA and FFIEC. Ismaelle holds a Master’s of Science in Cybersecurity, CISM and ISO 27001 Lead Implementer certifications.
+
+In her spare time, she enjoys traveling, watching anime and spending time with her young nieces and nephews. She is also a mentor and an advocate for women and non-binary people in technology and cybersecurity."""
+      social = [
+       ["fa-linkedin", "www.linkedin.com/in/ismaellevixsama"],
+      ]
+    [[params.speakers.members]]
+      name = "Jason Hill"
+      position = "How to create a Compliance baseline and simplify compliance forever"
+      bio = """Mr. Hill’s accomplishments include acting information security chief of one of the largest aluminum producers in the world and Information Assurance lead for a $180M infrastructure revamp for a Department of Defense entity. Training and consulting clients have ranged large and small included dozens of Managed Security Services Providers, Fortune 500 companies, NASA and other US government institutions.  Mr. Hill has had cybersecurity consulting responsibilities for a variety of clients encompassing the globe utilizing the NIST-RMF, NIST- CSF, and ISO 27001 frameworks as well as his experience as a PCI QSA. Having a background in system architecture and design Mr. Hill brings a uniquely refreshing perspective on information security which provides clients and partners value beyond industry norms."""
+    [[params.speakers.members]]
+      name = "Joe Gray"
+      position = "Social Forensication: A Multidisciplinary Approach to Successful Social Engineering"
+      bio = """Joe Gray joined the U.S. Navy directly out of High School and served for 7 years as a Submarine Navigation Electronics Technician. Joe is currently a Senior Security Architect and maintains his own blog and podcast called Advanced Persistent Security. In his spare time, Joe enjoys attending information security conferences, contributing blogs to various outlets, training in Brazilian Jiu Jitsu, and flying his drone. Joe is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge. Joe is a regular Forbes contributor and has contributed material for the likes of AlienVault, ITSP Magazine, CSO Online, and Dark Reading. Joe is an IBM Recognized Speaker/Presenter."""
+      social = [
+       ["fa-twitter", "https://twitter.com/c_3pjoe"],
+      ]
+    [[params.speakers.members]]
+      name = "Michael Anton"
+      position = "Blocks and Chains - Realities of Blockchain in the Enterprise"
+      bio = """Michael S. Anton is a Senior Product Manager at Kudelski Security, an international security company that provides innovative and tailored solutions to enterprises and public-sector clients.  He works within the company’s Innovation group, where his responsibility is to evaluate emerging technologies for product development – specifically focusing on DLT and IoT."""
+      social = [
+      ]
+    [[params.speakers.members]]
+      name = "Nathan Hamiel"
+      position = "Agile Security for Modern Threats"
+      bio = """Nathan Hamiel is Head of Cybersecurity Research at Kudelski Security, an international security company providing innovative and tailored solutions to enterprises and public-sector clients. Nathan works in the innovation group defining the future of services and products for the company. A security veteran with a strong focus on software security, he has spent his nearly 20-year career helping customers around the world solve complex security challenges.
+
+Nathan has presented his research at global security events including Black Hat, DEF CON, HOPE, ShmooCon, SecTor, ToorCon and many others. He is also a member of the Black Hat review board where he evaluates research for inclusion into the various conferences around the world."""
+      social = [
+       ["fa-twitter", "https://twitter.com/nathanhamiel"],
+       ["fa-linkedin", "https://www.linkedin.com/in/nathanhamiel/"],
+      ]
+    [[params.speakers.members]]
+      name = "Ray Kelly"
+      position = "Mobile App Vulnerabilities – The Bad, The Worse And The Ugly"
+      bio = """Ray Kelly is an internet security professional with over twenty years of development experience, twelve of which has focused on the internet security space. Ray has been a key player in multiple successfully acquired cyber security start-ups. He was the Lead Developer and Business Unit Director for WebInspect with SPI Dynamics which is an industry leading application security scanner. Currently Ray is a Application Security Architect for Micro Focus where he contributes to security research, business vision and customer success"""
+      social = [
+       ["fa-twitter", "https://twitter.com/vbisbest"],
+      ]
+    [[params.speakers.members]]
+      name = "Ryan Wilson"
+      position = "Continuous Monitoring on a Budget: OpenWRT, Python, Documented Analytic Tradecraft, and the Cloud"
+      bio = """Ryan is a cybersecurity professional, instructor, and entrepreneur. He has served the U.S. Government with his expertise for over 10 years. More recently, he has started consulting with small businesses and families to help them protect themselves from the cyberspace things that keep them up at night. When not nerding around (he really likes programming!), he loves shaping his children (a.k.a. parenting), kayaking, camping, and biking. And he recently achieved a childhood dream of computerizing his Christmas light display and syncing them to music with his Raspberry Pi. Soli Deo Gloria."""
+      social = [
+       ["fa-twitter", "https://twitter.com/spotlightcybsec"],
+      ]
+    [[params.speakers.members]]
+      name = "Tony Drake"
+      position = "Incident Response for the Overwhelmed, Understaffed and Unprepared"
+      bio = """Tony Drake has over 25 years of experience in various areas of information security and system administration including certifications in Pen Testing, Incident Response and Forensics.
+"""
+    [[params.speakers.members]]
+      name = "Vishruta Rudresh"
+      position = "Under the skin: Privacy engineering of medical devices"
+      bio = """Vishruta Rudresh is a Senior Cybersecurity Researcher at Kudelski Security focusing on fundamental new approaches to IoT and OT environment security, including but not limited to machine learning, edge device decision making, and low power environment security. She has been working in the Information Technology industry since 2011 specializing in IoT security, malware reverse engineering, system and application administration, incident response, digital forensics, and mobile security and has a master’s degree in Information Technology- Information Security from Carnegie Mellon University."""
+      social = [
+       ["fa-linkedin", "https://www.linkedin.com/in/vishrutag/"],
+      ]
+    [[params.speakers.members]]
+      name = "Wes Lambert"
+      position = "Alexa Knows My Kids Better Than I Do"
+      bio = """Wes Lambert is a Senior Engineer at Security Onion Solutions, where he helps customers to implement enterprise security monitoring solutions and better understand their computer networks.  He is an active supporter of open source software projects, and loves helping others to solve problems with completely free and easily deployable tools.
+"""
+      social = [
+       ["fa-twitter", "https://twitter.com/therealwlambert"],
+      ]
+    [[params.speakers.members]]
+      name = "Wes Widner"
+      position = "The Sound of Evil - An exploration of the audio security landscape"
+      bio = """One of the first dates with my wife was spent overclocking a Gateway 2000 66Mhz to 175Mhz. I knew she was the one as the under-cooled chip glowed red hot and set off the smoke alarm. These days, I'm an Engineering Manager at CrowdStrike, a leading cybersecurity company. Hit me up if you're interested in joining our team!"""
+      social = [
+       ["fa-twitter", "https://twitter.com/kai5263499"],
+      ]
+    [[params.speakers.members]]
+      name = "Xavier Ashe"
+      position = "Indicators of Crap"
+      bio = """Xavier Ashe is currently the VP of Security Engineering at SunTrust.  He is a Georgia Institute of Technology alumnus and has 25 years of hands-on experience in information security.  Working for various security vendors and consulting firms for the last 15 years, including IBM, Gartner, and Carbon Black, Xavier has been focused on helping secure companies of all sizes.  Xavier was the first hire at the startup Drawbridge Networks, where he was instrumental in bringing the first microsegmentation solution for servers and workstations to market.  Mr. Ashe holds many industry certifications, including CISM, CISSP, ITIL, SOA, and others."""
+      social = [
+       ["fa-twitter", "https://twitter.com/xavierashe"],
+       ["fa-linkedin", "https://www.linkedin.com/in/xavierashe"],
+      ]
+
+
+
+  # Client section
+    [params.sponsors_list]
+      enable = true
+      # Possibility to center items
+      center = true
+      # Optional sponsor title specifying the involvement
+      title = "Our Sponsors"
+      subtitle = "We thank these sponsors for making our event great!"
+
+      # All the sponsors' logos are stored under 'static/img/logos'.
+      # Replace them with your sponsors's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.sponsors.diamond]]
+        logo = "warnermedia.png"
+        link = "https://www.warnermediagroup.com"
+
+      [[params.sponsors.gold]]
+        logo = "ksu-is.png"
+        link = "http://coles.kennesaw.edu/information-systems/"
+      [[params.sponsors.gold]]
+        logo = "coles.png"
+        link = "http://coles.kennesaw.edu/information-systems/"
+      [[params.sponsors.gold]]
+        logo = "bishopfox.png"
+        link = "https://www.bishopfox.com/"
+      [[params.sponsors.gold]]
+        logo = "ncr.png"
+        link = "https://www.ncr.com"
+      [[params.sponsors.gold]]
+        logo = "coalfire.jpg"
+        link = "https://coalfire.com"
+
+      [[params.sponsors.crystal]]
+        logo = "synopsys.png"
+        link = "https://www.synopsys.com/"
+      [[params.sponsors.crystal]]
+        logo = "critical.path.security.png"
+        link = "https://www.criticalpathsecurity.com/"
+
+      [[params.sponsors.silver]]
+        logo = "aarons.png"
+        link = "https://www.aarons.com/"
+      [[params.sponsors.silver]]
+        logo = "black_hills.png"
+        link = "https://www.blackhillsinfosec.com"
+      [[params.sponsors.silver]]
+        logo = "binary_defense.png"
+        link = "https://binarydefense.com"
+      [[params.sponsors.silver]]
+        logo = "guidepoint.png"
+        link = "https://guidepointsecurity.com"
+      [[params.sponsors.silver]]
+        logo = "corelight.png"
+        link = "https://corelight.com"
+
+      [[params.sponsors.bronze]]
+        logo = "nccgroup.png"
+        link = "https://www.nccgroup.trust/us/"
+
+      [[params.sponsors.event]]
+        logo = "netkoth.png"
+        link = "https://netkoth.github.io"
+      [[params.sponsors.event]]
+        logo = "foxpick.jpg"
+        link = "https://twitter.com/Fox_Pick"
+
+      [[params.sponsors.inkind]]
+        logo = "efga.png"
+        link = "https://ef-georgia.org"
+# TODO Diamond Turner
+
+#      [[params.sponsors.gold]]
+#        logo = "nsa.png"
+#        link = "https://www.intelligencecareers.gov/nsa"
+#      [[params.sponsors.event]]
+#        logo = "cg-silvers.png"
+#        link = "https://www.cgsilvers.com/"
+#      [[params.sponsors.event]]
+#        logo = "abe.png"
+#        link = "http://www.abesap.com"
+#      [[params.sponsors.silver]]
+#        logo = "coalfire.png"
+#        link = "https://www.coalfire.com/"
+#      [[params.sponsors.silver]]
+#        logo = "help-systems.png"
+#        link = "https://www.helpsystems.com/"
+#      [[params.sponsors.bronze]]
+#        logo = "redseer.png"
+#        link = "https://www.linkedin.com/company/red-seer-inc"
+#      [[params.sponsors.inkind]]
+#        logo = "nostarchpress.png"
+#        link = "https://nostarch.com"
+#      [[params.sponsors.inkind]]
+#        logo = "vhl.jpg"
+#        link = "https://www.virtualhackinglabs.com/"
+#      [[params.sponsors.inkind]]
+#        logo = "htb.png"
+#        link = "https://www.hackthebox.eu/"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = ""
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/bsidesatl"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/bsidesatl"
+      title = "Github"
+
+
+  [params.codeofconduct]
+    enable = true
+    title = "Code of Conduct"
+    text = '''
+**We have NO TOLERANCE for physical/verbal/sexual harassment of any human,
+humanoid or AI!**
+
+Our "Code of Conduct" is **"Be Excellent to Each Other"** AKA the Golden Rule.
+Failing that, it is "Do not be an Ass* or we will kick your ass out!".
+
+Asking questions of a speaker during their talk, to get clarity or debate a
+point is NOT being an ass – heckling or haranguing the speaker IS. If you are
+not sure, ask, or err on the side of basic decency and common courtesy. If what
+they are doing would not be acceptable to have done to you, your best friend,
+your worst enemy, your sister, niece, daughter, brother, nephew, son, mother,
+father, or any human being, do not let them treat anyone else that way – whether
+ you know them or not. **If someone asks you to stop – stop.**
+
+**If you are having an issue with a BSidesATL participant of ANY type, find an
+organizer.** They will assist you in determining the next steps for you to feel
+safe and heard.
+
+_*Staff reserves the right to determine what constitutes "Being an Ass"._
+'''

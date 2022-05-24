@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+    {{ partial "hero.html" . }}
+
+    {{ if .Site.Params.about.enable }}
+      {{ partial "about.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.news.enable }}
+      {{ partial "news.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.training.enable }}
+      {{ partial "training.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.schedule.enable }}
+      {{ partial "schedule.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.speakers.enable }}
+      {{ partial "speakers.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.team.enable }}
+      {{ partial "team.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.sponsors_list.enable }}
+      {{ partial "sponsors.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.contact.enable }}
+      {{ partial "contact.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.codeofconduct.enable }}
+      {{ partial "codeofconduct.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+
+    {{ partial "js.html" . }}
+  </body>
+</html>

@@ -403,36 +403,10 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.inkind]]
         logo = "efga.png"
         link = "https://ef-georgia.org"
-# TODO Diamond Turner
 
-#      [[params.sponsors.gold]]
-#        logo = "nsa.png"
-#        link = "https://www.intelligencecareers.gov/nsa"
-#      [[params.sponsors.event]]
-#        logo = "cg-silvers.png"
-#        link = "https://www.cgsilvers.com/"
-#      [[params.sponsors.event]]
-#        logo = "abe.png"
-#        link = "http://www.abesap.com"
-#      [[params.sponsors.silver]]
-#        logo = "coalfire.png"
-#        link = "https://www.coalfire.com/"
-#      [[params.sponsors.silver]]
-#        logo = "help-systems.png"
-#        link = "https://www.helpsystems.com/"
-#      [[params.sponsors.bronze]]
-#        logo = "redseer.png"
-#        link = "https://www.linkedin.com/company/red-seer-inc"
-#      [[params.sponsors.inkind]]
-#        logo = "nostarchpress.png"
-#        link = "https://nostarch.com"
-#      [[params.sponsors.inkind]]
-#        logo = "vhl.jpg"
-#        link = "https://www.virtualhackinglabs.com/"
-#      [[params.sponsors.inkind]]
-#        logo = "htb.png"
-#        link = "https://www.hackthebox.eu/"
-
+      [[params.sponsors.lanyard]]
+          logo = "coles.png"
+          link = "https://coles.kennesaw.edu"
   # Footer section
   [params.footer]
     enable = true

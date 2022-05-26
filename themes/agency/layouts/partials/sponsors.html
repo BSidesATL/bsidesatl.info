@@ -207,5 +207,33 @@
 
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Lanyard</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+
+      {{ if .Site.Params.sponsors.lanyard }}
+      {{ $cell := div 12 (len .Site.Params.sponsors.lanyard) }}
+      {{ range .Site.Params.sponsors.lanyard }}
+        <div class="col-md-{{ $cell }} col-sm-{{ $cell }} col">
+          {{ $url := printf "img/logos/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}" target="_blank">
+              <img src="{{ $url | absURL }}" class="img-fixed-height img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-fixed-height img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ end }}
+
+      </div>
+    </div>
+
   </div>
 </section>

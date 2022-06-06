@@ -108,21 +108,17 @@ Each BSides is a **community-driven** framework for building events for and by i
 
 [params.news]
    enable = true
-   title = "BSides Atlanta 2022 announcement"
-   subtitle = "BSides Atlanta is set for Saturday, August 27th"
+   title = "BSides Atlanta 2022 CFP is open!"
+   subtitle = "Deadline for submission is Friday, June 24th"
    text = '''
 
-We are excited to announce that BSides Atlanta 2022 is scheduled for Saturday, August 27th at the KSU Center in Kennesaw, Georgia!
+The CFP website is open for submissions!
 
-After the events of the last two years, we thought a theme of "Re-Engage.  Re-Imagine.  Re-Ignite." seemed appropriate!
+We're excited to be using the Pretalx website to manage CFP submissions and schedule publishing, and we thank them for offering a discount to all BSides events!
 
-We will open the CFP website on June 3rd, with a deadline of June 24th.  We will welcome talks of either 20 or 50 minutes.
+To submit a CFP, please visit https://pretalx.com/bsides-atlanta-2022/cfp
 
-We are really excited about getting back together with everyone, and we cannot wait to see you all in August!
-
-BSides Atlanta Organizers
-
-Yvette, Joetta, and Andy
+We will close the CFP window on Friday, June 24th.
 
 '''
 

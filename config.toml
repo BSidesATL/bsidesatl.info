@@ -58,7 +58,7 @@ googleAnalytics = ""
     training = "Training"
     contact = "Contact"
     sponsors = "Sponsors"
-
+    
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
     # below and replace the values with your own.
@@ -80,6 +80,10 @@ googleAnalytics = ""
     # [[params.hero.links]]
       # link = "https://ti.to/bsidesatl/bsidesatl2020/"
       # text = "Tickets"
+
+    [[params.hero.links]]
+      link = "https://pretalx.com/bsides-atlanta-2022/cfp"
+      text = "CFP submission"
 
     [[params.hero.links]]
       link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"

@@ -86,6 +86,10 @@ googleAnalytics = ""
       text = "CFP submission"
 
     [[params.hero.links]]
+      link = "https://pretalx.com/bsides-atlanta-2022/schedule/"
+      text = "Conference schedule"
+
+    [[params.hero.links]]
       link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
       text = "Join our Slack"
 

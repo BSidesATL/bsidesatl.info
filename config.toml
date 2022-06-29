@@ -396,6 +396,9 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.bronze]]
         logo = "nccgroup.png"
         link = "https://www.nccgroup.trust/us/"
+      [[params.sponsors.bronze]]
+        logo = "Avalon.jpg"
+        link = "https://avaloncybersecurity.com/"
 
       [[params.sponsors.event]]
         logo = "netkoth.png"

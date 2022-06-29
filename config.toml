@@ -351,8 +351,8 @@ Nathan has presented his research at global security events including Black Hat,
       # Replace them with your sponsors's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.sponsors.diamond]]
-        logo = "warnermedia.png"
-        link = "https://www.warnermediagroup.com"
+        logo = "WBD_HorizontalLogo_Blue.png"
+        link = "https://www.wbd.com"
 
       [[params.sponsors.gold]]
         logo = "ksu-is.png"

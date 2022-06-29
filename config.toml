@@ -404,8 +404,8 @@ Nathan has presented his research at global security events including Black Hat,
         logo = "netkoth.png"
         link = "https://netkoth.github.io"
       [[params.sponsors.event]]
-        logo = "foxpick.jpg"
-        link = "https://twitter.com/Fox_Pick"
+        logo = "atlanta_locksport.jpg"
+        link = "https://atlantalocksport.org/"
 
       [[params.sponsors.inkind]]
         logo = "efga.png"

@@ -77,13 +77,13 @@ googleAnalytics = ""
     subtitle = "Saturday, August 27th"
     slogan = "Theme:  Re-Engage.  Re-Imagine.  Re-Ignite."
 
-    # [[params.hero.links]]
-      # link = "https://ti.to/bsidesatl/bsidesatl2020/"
-      # text = "Tickets"
+     [[params.hero.links]]
+       link = "https://ti.to/bsidesatl/2022/"
+       text = "Tickets"
 
-    [[params.hero.links]]
-      link = "https://pretalx.com/bsides-atlanta-2022/cfp"
-      text = "CFP submission"
+    # [[params.hero.links]]
+      # link = "https://pretalx.com/bsides-atlanta-2022/cfp"
+      # text = "CFP submission"
 
     [[params.hero.links]]
       link = "https://pretalx.com/bsides-atlanta-2022/schedule/"

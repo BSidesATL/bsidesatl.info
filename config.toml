@@ -81,6 +81,10 @@ googleAnalytics = ""
        link = "https://ti.to/bsidesatl/2022/"
        text = "Tickets"
 
+     [[params.hero.links]]
+        link = "https://signup.com/go/YUYegZa"
+        text = "Volunteer signup"
+
     # [[params.hero.links]]
       # link = "https://pretalx.com/bsides-atlanta-2022/cfp"
       # text = "CFP submission"

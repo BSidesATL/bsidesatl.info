@@ -134,6 +134,15 @@ We will close the CFP window on Friday, June 24th.
 
 '''
 
+[params.news]
+  enable = true
+  title = "BSides Atlanta 2022 schedule released!"
+  text = '''
+
+We are happy to announce our (nearly) complete schedule of speakers, villages, and overall shenanigans!  The schedule is available using the "Schedule" link found at the top of the page, or by visiting **[this link](https://pretalx.com/bsides-atlanta-2022/schedule/)**
+
+  '''
+
     # About section
   [params.schedule]
     enable = false

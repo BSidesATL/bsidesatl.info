@@ -119,22 +119,6 @@ Each BSides is a **community-driven** framework for building events for and by i
 '''
 
 [params.news]
-   enable = true
-   title = "BSides Atlanta 2022 CFP is open!"
-   subtitle = "Deadline for submission is Friday, June 24th"
-   text = '''
-
-The CFP website is open for submissions!
-
-We're excited to be using the Pretalx website to manage CFP submissions and schedule publishing, and we thank them for offering a discount to all BSides events!
-
-To submit a CFP, please visit **[https://pretalx.com/bsides-atlanta-2022/cfp](https://pretalx.com/bsides-atlanta-2022/cfp)**
-
-We will close the CFP window on Friday, June 24th.
-
-'''
-
-[params.news]
   enable = true
   title = "BSides Atlanta 2022 schedule released!"
   text = '''

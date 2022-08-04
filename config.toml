@@ -376,6 +376,9 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.crystal]]
         logo = "critical.path.security.png"
         link = "https://www.criticalpathsecurity.com/"
+      [[params.sponsors.crystal]]
+        logo = "probely.png"
+        link = "https://probely.com"
 
       [[params.sponsors.silver]]
         logo = "aarons.png"

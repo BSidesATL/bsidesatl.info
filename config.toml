@@ -379,6 +379,9 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.crystal]]
         logo = "probely.png"
         link = "https://probely.com"
+      [[params.sponsors.crystal]]
+        logo = "sentinel_one.png"
+        link = "https://sentinelone.com"
 
       [[params.sponsors.silver]]
         logo = "aarons.png"
@@ -390,7 +393,7 @@ Nathan has presented his research at global security events including Black Hat,
         logo = "binary_defense.png"
         link = "https://binarydefense.com"
       [[params.sponsors.silver]]
-        logo = "guidepoint.png"
+        logo = "guidepoint.jpg"
         link = "https://guidepointsecurity.com"
       [[params.sponsors.silver]]
         logo = "corelight.png"

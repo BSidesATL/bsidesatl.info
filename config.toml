@@ -327,10 +327,10 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
     enable = true
     copyright = ""
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "https://twitter.com/bsidesatl"
-      title = "Twitter"
+    #[[params.footer.social]]
+    #  icon = "fa-twitter"
+    #  link = "https://twitter.com/bsidesatl"
+    #  title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-github"
@@ -340,7 +340,7 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
     [[params.footer.social]]
       icon = "fa-mastodon"
       link = "https://infosec.exchange/@bsidesatl"
-      title = "Mastodon"
+      title = "Mastodon2"
 
   [params.codeofconduct]
     enable = true

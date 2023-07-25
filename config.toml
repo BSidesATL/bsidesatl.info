@@ -328,9 +328,9 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
     copyright = ""
 
     #[[params.footer.social]]
-    #  icon = "fa-twitter"
-    #  link = "https://twitter.com/bsidesatl"
-    #  title = "Twitter"
+      icon = "fa-twitter"
+      link = "https://twitter.com/bsidesatl"
+      title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-github"

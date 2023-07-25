@@ -210,7 +210,8 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
       # For bio markdown and even multiline strings are available.
       bio = """Andy is an Assistant Professor at KSU"""
       social = [
-        ["fa-twitter", "https://twitter.com/AndyGreenPhD"],
+        # ["fa-twitter", "https://twitter.com/AndyGreenPhD"]
+          ["fa-mastodon", "https://infosec.exchange/@andygreenphd"],
         ["fa-linkedin", "https://www.linkedin.com/in/andygreenphd/"]
       ]
 
@@ -340,7 +341,7 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
     [[params.footer.social]]
       icon = "fa-mastodon"
       link = "https://infosec.exchange/@bsidesatl"
-      title = "Mastodon2"
+      title = "Mastodon"
 
   [params.codeofconduct]
     enable = true

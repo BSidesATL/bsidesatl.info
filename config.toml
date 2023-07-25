@@ -192,7 +192,8 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
       # For bio markdown and even multiline strings are available.
       bio = """Chris likes cloud.  A lot."""
       social = [
-        ["fa-twitter", "https://twitter.com/AndyGreenPhD"],
+        ["fa-twitter", "https://twitter.com/jcfarris"],
+        ["fa-mastodon", "https://infosec.exchange/@jcfarris"],
         ["fa-linkedin", "https://www.linkedin.com/in/jcfarris/"]
       ]
     

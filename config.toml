@@ -365,11 +365,11 @@ Nathan has presented his research at global security events including Black Hat,
       # Replace them with your sponsors's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.sponsors.diamond]]
-        logo = "WBD_HorizontalLogo_Blue.png"
-        link = "https://www.wbd.com"
+        #logo = "WBD_HorizontalLogo_Blue.png"
+        #link = "https://www.wbd.com"
       [[params.sponsors.diamond]]
-        logo = "google.png"
-        link = "https://google.com"
+        #logo = "google.png"
+        #link = "https://google.com"
 
       [[params.sponsors.gold]]
         logo = "ksu-is.png"

@@ -339,7 +339,7 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
 
     [[params.footer.social]]
       icon = "fa-mastodon"
-      link = "https://infosec.exchange/bsidesatl"
+      link = "https://infosec.exchange/@bsidesatl"
       title = "Mastodon"
 
   [params.codeofconduct]

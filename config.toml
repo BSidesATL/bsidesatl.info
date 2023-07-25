@@ -73,41 +73,40 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "BSides Atlanta 2022"
-    subtitle = "Saturday, August 27th - KSU Center - 3333 Busbee Drive NW, Kennesaw, Ga"
-    slogan = "Theme:  Re-Engage.  Re-Imagine.  Re-Ignite."
+    title = "BSides Atlanta 2023"
+    subtitle = "Saturday, October 14th - KSU Center - 3333 Busbee Drive NW, Kennesaw, Ga"
 
-     [[params.hero.links]]
-       link = "https://ti.to/bsidesatl/2022/"
-       text = "Tickets"
+     #[[params.hero.links]]
+      # link = "https://ti.to/bsidesatl/2022/"
+      # text = "Tickets"
 
-     [[params.hero.links]]
-        link = "https://signup.com/go/YUYegZa"
-        text = "Volunteer signup"
+     #[[params.hero.links]]
+      #  link = "https://signup.com/go/YUYegZa"
+      #  text = "Volunteer signup"
 
     # [[params.hero.links]]
       # link = "https://pretalx.com/bsides-atlanta-2022/cfp"
       # text = "CFP submission"
 
-    [[params.hero.links]]
-      link = "https://pretalx.com/bsides-atlanta-2022/schedule/"
-      text = "Conference schedule"
+    #[[params.hero.links]]
+    #  link = "https://pretalx.com/bsides-atlanta-2022/schedule/"
+    #  text = "Conference schedule"
 
     [[params.hero.links]]
-      link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
-      text = "Join our Slack"
+      link = "https://bit.ly/bsidesatl-discord"
+      text = "Join our Discord server"
 
-    [[params.hero.links]]
-      link = "https://www.youtube.com/c/BSidesATL"
-      text = "YouTube"
+    #[[params.hero.links]]
+    #  link = "https://www.youtube.com/c/BSidesATL"
+    #  text = "YouTube"
 
     # [[params.hero.links]]
     #  link = "https://bsidesatl2020shirts.itemorder.com"
     #  text = "Buy 2020 Shirts"
 
-    [[params.hero.links]]
-      link = "https://bsidesatl.itemorder.com/sale"
-      text = "Buy Swag"
+    #[[params.hero.links]]
+    #  link = "https://bsidesatl.itemorder.com/sale"
+    #  text = "Buy Swag"
 
   # About section
   [params.about]
@@ -119,7 +118,7 @@ Each BSides is a **community-driven** framework for building events for and by i
 '''
 
 [params.news]
-  enable = true
+  enable = false
   title = "BSides Atlanta 2022 schedule released!"
   text = '''
 
@@ -179,6 +178,24 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
           ["fa-linkedin", "https://www.linkedin.com/in/joettalesueur/"]
         ]
 
+    [[params.team.members]]
+      img = "farris.jpg"
+      name = "Chris Farris"
+      #position = "Lead Designer"
+      #reportsTo = "CTO"
+      #livesIn = "[Munich, Germany](#some-maps-url)"
+      #scope = [
+      #  "UX for [member dashboard](#)",
+      #  "Maintainer for [awesome-project](#)",
+      #  "Open Source [community management](#)"
+      #]
+      # For bio markdown and even multiline strings are available.
+      bio = """Chris likes cloud.  A lot."""
+      social = [
+        ["fa-twitter", "https://twitter.com/AndyGreenPhD"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jcfarris/"]
+      ]
+    
     [[params.team.members]]
       img = "green2.jpg"
       name = "Dr. Andy Green"

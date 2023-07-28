@@ -1,5 +1,10 @@
 # BSidesATL.info HUGO Site
 
-  <meta name="generator" content="Hugo 0.85.0" />
+## Local usage instructions
 
-  hugo v0.104.3-58b824581360148f2d91f5cc83f69bd22c1aa331 darwin/arm64 BuildDate=2022-10-04T14:25:23Z VendorInfo=gohugoio
+1. Download [hugo 0.85.0](https://github.com/gohugoio/hugo/releases/tag/v0.85.0) for your machine, place it in the root of this repo
+2. Run `make test-preview`
+3. Edit files watch in real-time the updates at http://localhost:1316/
+
+## Publishing
+1. Commit shit to main. You own this. YOLO!!!!!!!

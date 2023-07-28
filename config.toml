@@ -96,6 +96,10 @@ googleAnalytics = ""
       link = "https://bit.ly/bsidesatl-discord"
       text = "Join our Discord server"
 
+    [[params.hero.links]]
+      link = "/bsidesatl-sponsor-2023.pdf"
+      text = "Interested in Sponsoring?"
+
     #[[params.hero.links]]
     #  link = "https://www.youtube.com/c/BSidesATL"
     #  text = "YouTube"
@@ -190,7 +194,7 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
       #  "Open Source [community management](#)"
       #]
       # For bio markdown and even multiline strings are available.
-      bio = """Chris likes cloud.  A lot."""
+      bio = """Cloud Security Nerd with Primeharbor Technologies."""
       social = [
         ["fa-twitter", "https://twitter.com/jcfarris"],
         ["fa-mastodon", "https://infosec.exchange/@jcfarris"],

@@ -1,0 +1,9 @@
+.env/
+public/
+.DS_Store
+raw-headers/
+.hugo_build.lock
+Attic/*
+resources/
+hugo_0.85.0_macOS-ARM64.tar.gz
+hugo

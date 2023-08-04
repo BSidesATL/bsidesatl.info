@@ -84,9 +84,9 @@ googleAnalytics = ""
       #  link = "https://signup.com/go/YUYegZa"
       #  text = "Volunteer signup"
 
-    # [[params.hero.links]]
-      # link = "https://pretalx.com/bsides-atlanta-2022/cfp"
-      # text = "CFP submission"
+    [[params.hero.links]]
+      link = "https://pretalx.com/bsidesatl-2023/cfp"
+      text = "CFP submission"
 
     #[[params.hero.links]]
     #  link = "https://pretalx.com/bsides-atlanta-2022/schedule/"
@@ -256,83 +256,84 @@ We are happy to announce our (nearly) complete schedule of speakers, villages, a
       # Replace them with your sponsors's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       # [[params.sponsors.diamond]]
-      #   #logo = "WBD_HorizontalLogo_Blue.png"
-      #   #link = "https://www.wbd.com"
+      #   logo = "WBD_HorizontalLogo_Blue.png"
+      #   link = "https://www.wbd.com"
       # [[params.sponsors.diamond]]
-      #   #logo = "google.png"
-      #   #link = "https://google.com"
+      #   logo = "google.png"
+      #   link = "https://google.com"
 
       # [[params.sponsors.gold]]
-      #   #logo = "ksu-is.png"
-      #   #link = "http://coles.kennesaw.edu/information-systems/"
+      #   logo = "ksu-is.png"
+      #   link = "http://coles.kennesaw.edu/information-systems/"
       # [[params.sponsors.gold]]
-      #   #logo = "coles.png"
-      #   #link = "http://coles.kennesaw.edu/information-systems/"
+      #   logo = "coles.png"
+      #   link = "http://coles.kennesaw.edu/information-systems/"
       # [[params.sponsors.gold]]
-      #   #logo = "bishopfox.png"
-      #   #link = "https://www.bishopfox.com/"
+      #   logo = "bishopfox.png"
+      #   link = "https://www.bishopfox.com/"
       # [[params.sponsors.gold]]
-      #   #logo = "ncr.png"
-      #   #link = "https://www.ncr.com"
+      #   logo = "ncr.png"
+      #   link = "https://www.ncr.com"
       # [[params.sponsors.gold]]
-      #   #logo = "coalfire.jpg"
-      #   #link = "https://coalfire.com"
+      #   logo = "coalfire.jpg"
+      #   link = "https://coalfire.com"
 
       # [[params.sponsors.crystal]]
-      #   #logo = "synopsys.png"
-      #   #link = "https://www.synopsys.com/"
+      #   logo = "synopsys.png"
+      #   link = "https://www.synopsys.com/"
       # [[params.sponsors.crystal]]
       #   logo = "critical.path.security.png"
       #   link = "https://www.criticalpathsecurity.com/"
       # [[params.sponsors.crystal]]
-      #   #logo = "probely.png"
-      #   #link = "https://probely.com"
+      #   logo = "probely.png"
+      #   link = "https://probely.com"
       # [[params.sponsors.crystal]]
-      #   #logo = "sentinel_one.png"
-      #   #link = "https://sentinelone.com"
+      #   logo = "sentinel_one.png"
+      #   link = "https://sentinelone.com"
 
 
       # [[params.sponsors.silver]]
-        #logo = "aarons.png"
-        #link = "https://www.aarons.com/"
+      #   logo = "aarons.png"
+      #   link = "https://www.aarons.com/"
       # [[params.sponsors.silver]]
-        #logo = "black_hills.png"
-        #link = "https://www.blackhillsinfosec.com"
+      #   logo = "black_hills.png"
+      #   link = "https://www.blackhillsinfosec.com"
       # [[params.sponsors.silver]]
-        #logo = "binary_defense.png"
-        #link = "https://binarydefense.com"
+      #   logo = "binary_defense.png"
+      #   link = "https://binarydefense.com"
       # [[params.sponsors.silver]]
-        #logo = "guidepoint.jpg"
-        #link = "https://guidepointsecurity.com"
+      #   logo = "guidepoint.jpg"
+      #   link = "https://guidepointsecurity.com"
       # [[params.sponsors.silver]]
-        #logo = "corelight.png"
-        #link = "https://corelight.com"
+      #   logo = "corelight.png"
+      #   link = "https://corelight.com"
       [[params.sponsors.silver]]
         logo = "critical.path.security.png"
         link = "https://www.criticalpathsecurity.com/"
 
 
       # [[params.sponsors.bronze]]
-      #   #logo = "nccgroup.png"
-      #   #link = "https://www.nccgroup.trust/us/"
+      #   logo = "nccgroup.png"
+      #   link = "https://www.nccgroup.trust/us/"
       # [[params.sponsors.bronze]]
-      #   #logo = "Avalon.jpg"
-      #   #link = "https://avaloncybersecurity.com/"
+      #   logo = "Avalon.jpg"
+      #   link = "https://avaloncybersecurity.com/"
 
       # [[params.sponsors.event]]
-      #   #logo = "netkoth.png"
-      #   #link = "https://netkoth.github.io"
+      #   logo = "netkoth.png"
+      #   link = "https://netkoth.github.io"
       # [[params.sponsors.event]]
-      #   #logo = "atlanta_locksport.jpg"
-      #   #link = "https://atlantalocksport.org/"
+      #   logo = "atlanta_locksport.jpg"
+      #   link = "https://atlantalocksport.org/"
 
       # [[params.sponsors.inkind]]
-      #   #logo = "efga.png"
-      #   #link = "https://ef-georgia.org"
+      #   logo = "efga.png"
+      #   link = "https://ef-georgia.org"
 
-      #[[params.sponsors.lanyard]]
-          #logo = "coles.png"
-          #link = "https://coles.kennesaw.edu"
+      # [[params.sponsors.lanyard]]
+      #     logo = "coles.png"
+      #     link = "https://coles.kennesaw.edu"
+
   # Footer section
   [params.footer]
     enable = true

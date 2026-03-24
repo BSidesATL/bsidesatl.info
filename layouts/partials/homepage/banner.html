@@ -1,10 +1,12 @@
 <section id="banner">
-    <img src="/images/bsidesatl-light-rgb.png" class="logo img-responsive img-centered">
-    <header>
-
-        <h2>{{ .contents | markdownify }}</h2>
-        {{- if .button }}
-            <a href="{{ .button.url }}" class="button">{{ .button.contents }}</a>
-        {{- end }}
-    </header>
+  <img
+    src="/bsidesatl.info/images/bsidesatl-light-rgb.png"
+    class="logo img-responsive img-centered"
+  />
+  <header>
+    <h2>{{ .contents | markdownify }}</h2>
+    {{- if .button }}
+    <a href="{{ .button.url }}" class="button">{{ .button.contents }}</a>
+    {{- end }}
+  </header>
 </section>

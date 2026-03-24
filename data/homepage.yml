@@ -1,6 +1,6 @@
 banner:
   enable: true
-  image: "images/header-bg.jpg"
+  image: "/bsidesatl.info/images/header-bg.jpg"
   contents: "BSides Atlanta 2026 - TBA"
   # button:
   #   contents: "Register"

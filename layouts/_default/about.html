@@ -1,0 +1,48 @@
+{{ define "main" }}
+    <header>
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Description }}</p>
+        {{ if .Site.Params.show_post_dates | default true }}
+            {{- with .Date }}<time>{{ .Format "Jan 2, 2006" }}</time>{{ end }}
+        {{ end }}
+        {{ partial "tags.html" . }}
+    </header>
+    {{- if .Params.image }}
+        <span class="image featured"><img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt }}" /></span>
+    {{ end }}
+
+    {{- .Content }}
+
+<section id="team" class="bg-light-gray">
+  <div class="container">
+    <div class="row flexbox">
+        {{- range .Site.Data.organizers.organizers }}
+
+            <div class="col-sm-4 col">
+              <div class="team-member">
+                <img src="{{ .Image }}" class="organizer" alt="{{ .Name }}">
+                <h3>{{ .Name }}</h3>
+                <p class="team-bio">{{ .Bio }}</p>
+                <ul class="icons">
+                    {{- with .Twitter }}
+                        <li><a href="{{ . }}" target="_blank"><i class="icon brands fa-twitter"></i></a></li>
+                    {{- end }}
+                    {{- with .Mastodon }}
+                        <li><a href="{{ . }}" target="_blank"><i class="icon brands fa-mastodon"></i></a></li>
+                    {{- end }}
+                    {{- with .LinkedIn }}
+                        <li><a href="{{ . }}" target="_blank"><i class="icon brands fa-linkedin"></i></a></li>
+                    {{- end }}
+                </ul>
+              </div>
+            </div>
+
+
+        {{- end }}
+    </div>
+  </div>
+</section>
+
+
+{{ end }}
+

@@ -1,0 +1,11 @@
+<section class="wrapper style3">
+    <div class="container">
+
+        <header class="major keynote">
+            <img src="{{ .item.image }}">
+            <h2>{{ .item.heading }}</h2>
+            {{- $html := .item.contents | markdownify }}
+            <p>{{ $html }}</p>
+        </header>
+    </div>
+</section>

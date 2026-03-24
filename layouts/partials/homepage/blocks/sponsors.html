@@ -1,0 +1,31 @@
+<section class="wrapper style2">
+    <div class="container">
+        {{ with .item.heading }}<h2><center>{{ . }}</center></h2>{{ end }}
+        {{ if not .item.items }}
+            <div class="col-md-12 col-sm-12 col" style="text-align: center">
+            <a href="{{ .item.alternate }}">Your company logo here</a>
+            </div>
+        {{ else }}
+
+        <div class="row gtr-200">
+            {{- $sponsor_type := .item.sponsor_type }}
+            {{- $item_cols := .item.width }}
+            {{- range .item.items }}
+                <section class="col-{{ $item_cols }}">
+                <div class="box highlight">
+                  {{ if .link }}
+                    <a href="{{ .link }}" target="_blank">
+                      <img src="{{ .logo | absURL }}" class="{{ $sponsor_type }}-sponsor img-responsive img-centered" alt="{{ .name }}">
+                    </a>
+                  {{ else }}
+                    <img src="{{ .logo | absURL }}" class="{{ $sponsor_type }}-sponsor img-responsive img-centered" alt="">
+                  {{ end }}
+                </div>
+                </section>
+            {{- end }}
+        </div>
+        {{- end }}
+    </div>
+</section>
+
+

@@ -1,380 +1,110 @@
-# Site settings
-baseurl = "https://bsidesatl.info/"
+baseURL = "https://www.bsidesatl.info/"
 languageCode = "en-us"
-title = "BSidesATL"
-theme = "agency"
+title = "BSides Atlanta"
+theme = "hugo-arcana"
+copyright = "© PrimeHarbor. All rights reserved"
 
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+[taxonomies]
+    tag = "tags"
+
+[menus]
+    #[[menus.main]]
+    #    url = "https://pretalx.com/bsidesatl-2025/cfp"
+    #    name = "CFP"
+    #[[menus.main]]
+    #    url = "https://ti.to/bsidesatl/2025"
+    #    name = "Tickets"
+    [[menus.main]]
+        url = "https://bit.ly/bsidesatl-discord"
+        name = "Discord"
+    [[menus.main]]
+        url = "https://pretalx.com/bsidesatl-2025/schedule/"
+        name = "Schedule"
+    #[[menus.main]]
+    #    url = "https://signup.com/go/HYYvwga"
+    #    name = "Volunteer Signup"
+
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
+    description = "Saturday, November 15th, 2025 - KSU Center - 3333 Busbee Drive NW, Kennesaw, Ga"
+    show_post_dates = true
 
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
-  name = "bsidesatl"
-  description = "Bsides Atlanta"
-
-  # Link custom assets relative to /static
-  custom_css = []
-  custom_js  = []
-  favicon    = "favicon.ico"
-
-  # Possibility to disable external/additional fonts
-  # Exception: Fontawesome
-  disableFonts = true
-
-  # Enable the BSidesATL Twitter Card image
-  socialCard = false
-
-  # 404 error customization
-  [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
-
-  # Optional piwik tracking
-  #[params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
-
-  # Navigation
-  [params.navigation]
-    brand = "BSidesATL"
-    # Optional logo as brand stored in img/
-    logo = "bsidesatl-light-rgb.png"
-    about = "About"
-    news = "News"
-    team = "Organizers"
-    schedule = "Schedule"
-    training = "Training"
-    contact = "Contact"
-    sponsors = "Sponsors"
-    
-    # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
-
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-  # Hero section
-  [params.hero]
-    # To change the background image of the hero, replace 'header-bg.jpg' in
-    # the 'static/img' folder.
-    title = "BSides Atlanta 2023"
-    subtitle = "Saturday, October 14th - KSU Center - 3333 Busbee Drive NW, Kennesaw, Ga"
-
-     #[[params.hero.links]]
-      # link = "https://ti.to/bsidesatl/2022/"
-      # text = "Tickets"
-
-     #[[params.hero.links]]
-      #  link = "https://signup.com/go/YUYegZa"
-      #  text = "Volunteer signup"
-
-    [[params.hero.links]]
-      link = "https://pretalx.com/bsidesatl-2023/cfp"
-      text = "CFP submission"
-
-    #[[params.hero.links]]
-    #  link = "https://pretalx.com/bsides-atlanta-2022/schedule/"
-    #  text = "Conference schedule"
-
-    [[params.hero.links]]
-      link = "https://bit.ly/bsidesatl-discord"
-      text = "Join our Discord server"
-
-    [[params.hero.links]]
-      link = "/bsidesatl-sponsor-2023.pdf"
-      text = "Interested in Sponsoring?"
-
-    #[[params.hero.links]]
-    #  link = "https://www.youtube.com/c/BSidesATL"
-    #  text = "YouTube"
-
-    # [[params.hero.links]]
-    #  link = "https://bsidesatl2020shirts.itemorder.com"
-    #  text = "Buy 2020 Shirts"
-
-    #[[params.hero.links]]
-    #  link = "https://bsidesatl.itemorder.com/sale"
-    #  text = "Buy Swag"
-
-  # About section
-  [params.about]
-    enable = true
-    title = "About Security BSides"
-    text = '''
-Each BSides is a **community-driven** framework for building events for and by information security community members.  The goal is to expand the spectrum of conversation beyond the traditional confines of space and time.  It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
-
-'''
-
-[params.news]
-  enable = false
-  title = "BSides Atlanta 2022 schedule released!"
-  text = '''
-
-We are happy to announce our (nearly) complete schedule of speakers, villages, and overall shenanigans!  The schedule is available using the "Schedule" link found at the top of the page, or by visiting **[this link](https://pretalx.com/bsides-atlanta-2022/schedule/)**
-
-  '''
-
-    # About section
-  [params.schedule]
-    enable = false
-    title = "Schedule"
-
-  # Team section
-
-  [params.team]
-    enable = true
-    # Possibility to center items
-    #center = true
-    title = "BSides Atlanta organizers"
-
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
-      img = "johnson2.jpg"
-      name = "Yvette Johnson"
-      #position = "Lead Designer"
-      #reportsTo = "CTO"
-      #livesIn = "[Munich, Germany](#some-maps-url)"
-      #scope = [
-      #  "UX for [member dashboard](#)",
-      #  "Maintainer for [awesome-project](#)",
-      #  "Open Source [community management](#)"
-      #]
-      # For bio markdown and even multiline strings are available.
-      bio = """Yvette is the Managing Partner at Passpoint Security"""
-      social = [
-        ["fa-twitter", "https://twitter.com/JetSetYvette"],
-        ["fa-linkedin", "https://www.linkedin.com/in/yvette-johnson-01806b7/"]
-      ]
-
-      [[params.team.members]]
-        img = "lesueur.jpg"
-        name = "JoEtta LeSueur"
-        #position = "Lead Designer"
-        #reportsTo = "CTO"
-        #livesIn = "[Munich, Germany](#some-maps-url)"
-        #scope = [
-        #  "UX for [member dashboard](#)",
-        #  "Maintainer for [awesome-project](#)",
-        #  "Open Source [community management](#)"
-        #]
-        # For bio markdown and even multiline strings are available.
-        bio = """Jo is an experienced security professional as well an Adjunct Professor with a demonstrated history of working in the agile secure software development lifecycle."""
-        social = [
-          ["fa-twitter", "https://twitter.com/SheRaRox"],
-          ["fa-linkedin", "https://www.linkedin.com/in/joettalesueur/"]
-        ]
-
-    [[params.team.members]]
-      img = "farris.jpg"
-      name = "Chris Farris"
-      #position = "Lead Designer"
-      #reportsTo = "CTO"
-      #livesIn = "[Munich, Germany](#some-maps-url)"
-      #scope = [
-      #  "UX for [member dashboard](#)",
-      #  "Maintainer for [awesome-project](#)",
-      #  "Open Source [community management](#)"
-      #]
-      # For bio markdown and even multiline strings are available.
-      bio = """Cloud Security Nerd with Primeharbor Technologies."""
-      social = [
-        ["fa-twitter", "https://twitter.com/jcfarris"],
-        ["fa-mastodon", "https://infosec.exchange/@jcfarris"],
-        ["fa-linkedin", "https://www.linkedin.com/in/jcfarris/"]
-      ]
-    
-    [[params.team.members]]
-      img = "green2.jpg"
-      name = "Dr. Andy Green"
-      #position = "Lead Designer"
-      #reportsTo = "CTO"
-      #livesIn = "[Munich, Germany](#some-maps-url)"
-      #scope = [
-      #  "UX for [member dashboard](#)",
-      #  "Maintainer for [awesome-project](#)",
-      #  "Open Source [community management](#)"
-      #]
-      # For bio markdown and even multiline strings are available.
-      bio = """Andy is an Assistant Professor at KSU"""
-      social = [
-        # ["fa-twitter", "https://twitter.com/AndyGreenPhD"]
-          ["fa-mastodon", "https://infosec.exchange/@andygreenphd"],
-        ["fa-linkedin", "https://www.linkedin.com/in/andygreenphd/"]
-      ]
-
-  # Speakers section
-  [params.speakers]
-    enable = false
-    # left shackleford's profile to use as a template if we go back to this style of displaying speaker info
-    # Possibility to center items
-    #center = true
-    title = "Our amazing speakers"
-    subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
-    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-    # All speakers member's pictures are stored under 'static/img/speakers'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.speakers.members]]
-      name = "Dave Shackleford"
-      position = "Keynote: Software-Defined Everything, and What That Means to Security"
-      company = "Voodoo Security"
-      bio = """Dave is the CEO and Principal Consultant with Voodoo Security, and has consulted with hundreds of organizations in the areas of security, regulatory compliance, and network architecture and engineering. Dave is also Lead Faculty at IANS, a SANS analyst, instructor, and course author, and a board member with the SANS Technology Institute. He is a VMware vExpert, and has extensive experience designing and configuring secure virtualized infrastructures. He's the author of the Sybex book ""Virtualization Security: Protecting Virtualized Environments"", leads the Atlanta chapter of the Cloud Security Alliance, and co-chairs the CSA Top Threats to Cloud Working Group. Dave has previously worked as CSO for Configuresoft, CTO for the Center for Internet Security, and has also worked as a security architect, analyst, and manager for several Fortune 500 companies."""
-      social = [
-       ["fa-twitter", "https://twitter.com/daveshackleford"],
-       ["fa-twitter", "https://twitter.com/voodoosecurity"],
-      ]
-
-  # Client section
-    [params.sponsors_list]
-      enable = true
-      # Possibility to center items
-      center = true
-      # Optional sponsor title specifying the involvement
-      title = "Our Sponsors"
-      subtitle = "We thank these sponsors for making our event great!"
-
-      # All the sponsors' logos are stored under 'static/img/logos'.
-      # Replace them with your sponsors's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      # [[params.sponsors.diamond]]
-      #   logo = "WBD_HorizontalLogo_Blue.png"
-      #   link = "https://www.wbd.com"
-      # [[params.sponsors.diamond]]
-      #   logo = "google.png"
-      #   link = "https://google.com"
-
-      # [[params.sponsors.gold]]
-      #   logo = "ksu-is.png"
-      #   link = "http://coles.kennesaw.edu/information-systems/"
-      # [[params.sponsors.gold]]
-      #   logo = "coles.png"
-      #   link = "http://coles.kennesaw.edu/information-systems/"
-      # [[params.sponsors.gold]]
-      #   logo = "bishopfox.png"
-      #   link = "https://www.bishopfox.com/"
-      # [[params.sponsors.gold]]
-      #   logo = "ncr.png"
-      #   link = "https://www.ncr.com"
-      # [[params.sponsors.gold]]
-      #   logo = "coalfire.jpg"
-      #   link = "https://coalfire.com"
-
-      # [[params.sponsors.crystal]]
-      #   logo = "synopsys.png"
-      #   link = "https://www.synopsys.com/"
-      # [[params.sponsors.crystal]]
-      #   logo = "critical.path.security.png"
-      #   link = "https://www.criticalpathsecurity.com/"
-      # [[params.sponsors.crystal]]
-      #   logo = "probely.png"
-      #   link = "https://probely.com"
-      # [[params.sponsors.crystal]]
-      #   logo = "sentinel_one.png"
-      #   link = "https://sentinelone.com"
+    [[params.social]]
+        title = "Mastodon"
+        icon = "fa-mastodon"
+        url = "https://infosec.exchange/@bsidesatl"
+    [[params.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        url = "https://twitter.com/bsidesatl"
+    [[params.social]]
+        title = "GitHub"
+        icon = "fa-github"
+        url = "https://github.com/bsidesatl"
+    [[params.social]]
+        title = "LinkedIn"
+        icon = "fa-linkedin-in"
+        url = "https://www.linkedin.com/company/bsidesatl/"
 
 
-      # [[params.sponsors.silver]]
-      #   logo = "aarons.png"
-      #   link = "https://www.aarons.com/"
-      # [[params.sponsors.silver]]
-      #   logo = "black_hills.png"
-      #   link = "https://www.blackhillsinfosec.com"
-      # [[params.sponsors.silver]]
-      #   logo = "binary_defense.png"
-      #   link = "https://binarydefense.com"
-      # [[params.sponsors.silver]]
-      #   logo = "guidepoint.jpg"
-      #   link = "https://guidepointsecurity.com"
-      # [[params.sponsors.silver]]
-      #   logo = "corelight.png"
-      #   link = "https://corelight.com"
-      [[params.sponsors.silver]]
-        logo = "critical.path.security.png"
-        link = "https://www.criticalpathsecurity.com/"
 
 
-      # [[params.sponsors.bronze]]
-      #   logo = "nccgroup.png"
-      #   link = "https://www.nccgroup.trust/us/"
-      # [[params.sponsors.bronze]]
-      #   logo = "Avalon.jpg"
-      #   link = "https://avaloncybersecurity.com/"
+# This allows HTML in the markdown files.
+[markup.goldmark.renderer]
+    unsafe = true
 
-      # [[params.sponsors.event]]
-      #   logo = "netkoth.png"
-      #   link = "https://netkoth.github.io"
-      # [[params.sponsors.event]]
-      #   logo = "atlanta_locksport.jpg"
-      #   link = "https://atlantalocksport.org/"
+    # We don't need the footer
+    # [params.footer]
 
-      # [[params.sponsors.inkind]]
-      #   logo = "efga.png"
-      #   link = "https://ef-georgia.org"
+        # [[params.footer.links]]
+        #     header = "Links to Stuff"
+        # [[params.footer.links.links]]
+        #     title = "Mattis et quis rutrum"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Suspendisse amet varius"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Sed et dapibus quis"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Rutrum accumsan dolor"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Mattis rutrum accumsan"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Suspendisse varius nibh"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Sed et dapibus mattis"
+        #     url = "#"
 
-      # [[params.sponsors.lanyard]]
-      #     logo = "coles.png"
-      #     link = "https://coles.kennesaw.edu"
+        # [[params.footer.links]]
+        #     header = "More Links to Stuff"
+        # [[params.footer.links.links]]
+        #     title = "Duis neque nisi dapibus"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Sed et dapibus quis"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Rutrum accumsan sed"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Mattis et sed accumsan"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Duis neque nisi sed"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Sed et dapibus quis"
+        #     url = "#"
+        # [[params.footer.links.links]]
+        #     title = "Rutrum amet varius"
+        #     url = "#"
 
-  # Footer section
-  [params.footer]
-    enable = true
-    copyright = ""
-
-    #[[params.footer.social]]
-    #  icon = "fa-twitter"
-    #  link = "https://twitter.com/bsidesatl"
-    #  title = "Twitter"
-
-    [[params.footer.social]]
-      icon = "fa-github"
-      link = "https://github.com/bsidesatl"
-      title = "Github"
-
-    [[params.footer.social]]
-      icon = "fa-mastodon"
-      link = "https://infosec.exchange/@bsidesatl"
-      title = "Mastodon"
-
-  [params.codeofconduct]
-    enable = true
-    title = "Code of Conduct"
-    text = '''
-**We have NO TOLERANCE for physical/verbal/sexual harassment of any human,
-humanoid or AI!**
-
-Our "Code of Conduct" is **"Be Excellent to Each Other"** AKA the Golden Rule.
-Failing that, it is "Do not be an Ass* or we will kick your ass out!".
-
-Asking questions of a speaker during their talk, to get clarity or debate a
-point is NOT being an ass – heckling or haranguing the speaker IS. If you are
-not sure, ask, or err on the side of basic decency and common courtesy. If what
-they are doing would not be acceptable to have done to you, your best friend,
-your worst enemy, your sister, niece, daughter, brother, nephew, son, mother,
-father, or any human being, do not let them treat anyone else that way – whether
- you know them or not. **If someone asks you to stop – stop.**
-
-**If you are having an issue with a BSidesATL participant of ANY type, find an
-organizer.** They will assist you in determining the next steps for you to feel
-safe and heard.
-
-_*Staff reserves the right to determine what constitutes "Being an Ass"._
-'''
+        # [params.footer.contact_form]
+        #     enabled = true
+        #     header = "Get In Touch"
+        #     action = ""

@@ -5,8 +5,8 @@
 # Download and install for your architecture and place the binary in your path with the name hugox (
 # so as not to conflict with base hugo)
 
-PORT=1316
-HUGO=./hugo
+PORT=1317
+HUGO=hugox
 
 
 clean:
@@ -16,16 +16,12 @@ test:
 	open http://localhost:$(PORT)
 	$(HUGO) server -F -p $(PORT)
 
-test-preview:
+test-drafts:
 	open http://localhost:$(PORT)
-	$(HUGO) server -FD --config config.toml -p $(PORT)
+	$(HUGO) server -FD -p $(PORT)
 
-# incident:
-# 	mkdir content/incidents/$(name)
-# 	$(HUGO) new incidents/$(name)/index.md
-
-# post:
-# 	$(HUGO) new news/$(name).md
+post:
+	$(HUGO) new news/$(name).md
 
 # Create Using the main config, all current and future posts, but nothing in draft
 main:
@@ -35,5 +31,8 @@ main:
 preview:
 	$(HUGO) -FD --config config.toml
 
-force-deploy:
+force-build:
 	git commit -m "Force Build" --allow-empty && git push
+
+# 	$(HUGO) server -FD --config config.toml -p $(PORT)
+

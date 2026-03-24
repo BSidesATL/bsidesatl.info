@@ -1,0 +1,34 @@
+organizers:
+  # - Name: Yvette Johnson
+  #  Image: /organizers/johnson.jpg
+  #  Bio: Yvette is the Managing Partner at Passpoint Security
+  #  Twitter: https://twitter.com/JetSetYvette
+  #  LinkedIn: https://www.linkedin.com/in/yvette-johnson-01806b7/
+
+  #- Name: JoEtta LeSueur
+  #  Image: /organizers/lesueur.jpg
+  #  Bio: Jo is an experienced security professional as well an Adjunct Professor with a demonstrated history of working in the agile secure software development lifecycle.
+  #  Twitter: https://twitter.com/SheRaRox
+  #  LinkedIn: https://www.linkedin.com/in/joettalesueur/
+
+  - Name: Dr. Andy Green
+    Image: /organizers/green.jpg
+    Bio: Andy is an Assistant Professor at KSU
+    Mastodon: https://infosec.exchange/@andygreenphd
+    LinkedIn: https://www.linkedin.com/in/andygreenphd/
+
+  - Name: Steve Ripple
+    Image: /organizers/ripple.jpg
+    Bio: Steve Ripple is an information security leader focused on helping people and organizations protect their data by better understanding cyber risk. His experience spans security governance, third-party risk, privacy, compliance, and control design, with a strong track record of partnering with business and IT leaders to build practical, effective security programs. He holds CISSP and CDPSE certifications and is passionate about strengthening the cybersecurity community.
+
+  - Name: Scott Stanton
+    Image: /organizers/stanton-headshot-med.jpg
+    Bio: Scott is a cybersecurity practitioner and builder focused on building teams, talent, and high-performing cyber programs. His 30+ years of experience spans software development, infrastructure, and cyber defense.
+    LinkedIn: https://www.linkedin.com/in/scott-stanton1
+
+  # - Name: ChatGPT
+  #   Bio: AI Runs everything now
+  #   # Twitter: https://twitter.com/jcfarris
+  #   # Mastodon: https://infosec.exchange/@jcfarris
+  #   # LinkedIn: https://www.linkedin.com/in/jcfarris/
+  #   Image: /organizers/skynet.webp

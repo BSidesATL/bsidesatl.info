@@ -1,0 +1,28 @@
+<div id="header">
+
+    <nav id="nav">
+        <ul>
+            {{- range .Site.Menus.main }}
+                <li class="{{ if or ($.Page.IsMenuCurrent "main" .) ($.Page.HasMenuCurrent "main" .) }}current{{ end }}">
+                    <a href="{{ .URL | default "#" }}">{{ .Name }}</a>
+                    {{- if .HasChildren -}}
+                    <ul>
+                        {{- range .Children }}
+                        <li class="{{ if or ($.Page.IsMenuCurrent "main" .) ($.Page.HasMenuCurrent "main" .) }}current{{ end }}">
+                            <a href="{{ .URL | default "#" }}">{{ .Name }}</a>
+                            {{- if .HasChildren -}}
+                            <ul>
+                                {{- range .Children }}
+                                <li class="{{ if or ($.Page.IsMenuCurrent "main" .) ($.Page.HasMenuCurrent "main" .) }}current{{ end }}">
+                                    {{/* aoeu fix 'current' thing */}}
+                                    <a href="{{ .URL | default "#" }}">{{ .Name }}</a>
+                                {{- end }}
+                            </ul>
+                            {{- end -}}
+                        {{- end }}
+                    </ul>
+                    {{- end -}}
+            {{- end }}
+        </ul>
+    </nav>
+</div>

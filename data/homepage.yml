@@ -1,0 +1,154 @@
+banner:
+  enable: true
+  image: "/images/header-bg.jpg"
+  contents: "BSides Atlanta 2026 - TBA"
+  # button:
+  #   contents: "Register"
+  #   url: "#"
+
+items:
+
+  - type: heading
+    size: major
+    heading: Thank you for a successful BSides Atlanta 2025!
+    contents: Nearly 500 registered attendees, 63 volunteers, 23 talks, 2 workshops, 2 CTFs, and 2 villages made for an amazing event. We look forward to seeing you next year!
+  #- type: cta
+  #  contents: Call for Papers is now open!
+  #  button:
+  #    contents: Submit here
+  #    url: "https://pretalx.com/bsidesatl-2025/cfp"
+
+  #- type: cta
+  #  contents: Personal Sponsorship and General Admission Tickets are now available!
+  #  button:
+  #    contents: Register here
+  #    url: "https://ti.to/bsidesatl/2025"
+
+  #- type: cta
+  #  contents: Personal Sponsorship Ticket Sales Open Monday, September 22nd at 9am Eastern!
+  #  button:
+  #    contents: Register here
+  #    url: "https://ti.to/bsidesatl/2025"
+  # - type: cta
+  #   contents: We are currently sold out!<br>Stay tuned to this space for next year.
+
+
+  #- type: keynote
+  #  heading: Keynote - Zack Tisher
+  #  contents: "Every security professional knows the grind — long hours, unpredictable conditions, and the constant push to adapt when fatigue hits. In that way, cybersecurity and ultrarunning have a lot in common. Drawing on years of experience leading security transformations at Home Depot and Equifax and competing in 50-mile and 100-mile mountain races, Zach Tisher explores how endurance thinking, shared purpose, and community can transform how we approach modern defense."
+  #  image: /images/zack_tisher_headshot.jpeg
+
+  # - type: cta
+  #   contents: Schedule is Announced!
+  #   button:
+  #     contents: Check it Out!
+  #     url: "https://pretalx.com/bsidesatl-2023/schedule/"
+
+  # - type: cta
+  #   contents: We cannot do this event with out your help.
+  #   button:
+  #     contents: Volunteer
+  #     url: "https://signup.com/go/QedDETi"
+
+  - type: heading
+    size: major
+    heading: Thank you to our sponsors
+    contents: Your support makes this event possible
+
+
+
+  - type: sponsors
+    width: 4  # 12 divided by width is number of sponsors per row
+    sponsor_type: diamond
+    heading: Diamond Sponsors
+  
+  - type: sponsors
+    width: 4  # 12 divided by width is number of sponsors per row
+    heading: Gold Sponsors
+    sponsor_type: gold
+    items:
+    - name: KSU
+      logo: "/sponsors/ksu-iss.jpg"
+      link: "http://coles.kennesaw.edu/information-systems/"
+    - name: KSU
+      logo: "/sponsors/coles.png"
+      link: "https://www.kennesaw.edu/coles/"
+    - name: WhiteBox Security
+      logo: "/sponsors/whitebox.jpg"
+      link: "https://whiteboxsec.com"
+    
+  - type: sponsors
+    width: 4  # 12 divided by width is number of sponsors per row
+    heading: Crystal Sponsors
+    sponsor_type: crystal
+    items:
+    - name: Intuit
+      logo: "/sponsors/intuit.png"
+      link: "https://www.intuit.com"
+  
+  - type: sponsors
+    width: 4  # 12 divided by width is number of sponsors per row
+    heading: Silver Sponsor
+    sponsor_type: silver
+    items:
+    - name: Blue Ridge Consultants
+      logo: "/sponsors/blue_ridge_consultants.svg"
+      link: "https://www.blueridge.cx"
+    - name: Bishop Fox
+      logo: "/sponsors/bishopfox.png"
+      link: "https://bishopfox.com"
+    - name: Amplifier Security
+      logo: "/sponsors/amplifier_security.png"
+      link: "https://www.amplifiersecurity.com"
+
+  - type: sponsors
+    width: 4  # 12 divided by width is number of sponsors per row
+    heading: Bronze Sponsor
+    sponsor_type: bronze
+    items:
+    - name: Rapid7
+      logo: "/sponsors/rapid7.png"
+      link: "https://www.rapid7.com"
+    
+  - type: sponsors
+    width: 4  # 12 divided by width is number of sponsors per row
+    heading: In-Kind Sponsors
+    sponsor_type: inkind
+    items:
+    - name: Kammerdiener Technologies 
+      logo: "/sponsors/kammerdiener.png"
+      link: "https://k-tech.io/"
+    - name: Atlanta Locksport
+      logo: "/sponsors/atlanta_locksport.jpg"
+      link: "https://atlantalocksport.org"
+    - name: Hack Defender
+      logo: "/sponsors/hack_defender.png"
+      link: "https://www.hackdefender.org"
+    - name: no starch press
+      logo: "/sponsors/nostarchpress.png"
+      link: "https://nostarch.com"
+    - name: Offensive Security
+      logo: "/sponsors/OffSec_Logo.jpeg"
+      link: "https://www.offsec.com"
+
+  # - type: cta
+  #   contents: Interested in speaking at BSides Atlanta?
+  #   button:
+  #     contents: Submit a talk
+  #     url: "https://pretalx.com/bsidesatl-2023/cfp"
+
+  # - type: heading
+  #   heading: About Security BSides
+  #   size: minor # | major
+  #   contents: Each BSides is a community-driven framework for building events for and by information security community members. The goal is to expand the spectrum of conversation beyond the traditional confines of space and time. It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
+
+  - type: posts
+    heading: News
+    content_type: news
+    max: 2
+
+  # - type: cta
+  #  contents: Looking for more info?
+  #  button:
+  #    contents: Join the Discord Server
+  #    url: "https://bit.ly/bsidesatl-discord"

@@ -1,0 +1,100 @@
+
+
+/*Define the Max height for each sponsor type*/
+.diamond-sponsor {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.gold-sponsor {
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.crystal-sponsor {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+.silver-sponsor {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+.bronze-sponsor {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+.inkind-sponsor {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+/*Fix the logo size*/
+.logo {
+    max-height: 200px;
+    max-width: 100%;
+}
+
+/*Fix the logo size*/
+.organizer {
+    max-height: 200px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/*Override some default theme settings*/
+.wrapper {
+	padding: 1em 0 1em 0;
+}
+
+#cta {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.banner_title {
+    vertical-align: top;
+}
+
+#header {
+    padding: 0 0 0 0;
+}
+
+.col-sm-4 {
+    width: 25%;
+}
+
+.box.highlight {
+    text-align: left;
+    position: relative;
+    padding-left: 1em;
+}
+
+/*Create a new block style for the keynote*/
+header.keynote img {
+    float: left;
+    max-height: 250px;
+    padding: 0em 1em 0em 0em;
+}
+
+header.keynote {
+    display: block;
+}
+
+header.keynote p {
+    color: black;
+    text-align: left;
+    border-top: solid 0px;
+    position: relative;
+    padding: 1em 0 0 1em;
+    margin: 0 0 0 10px;
+    top: -1em;
+    font-size: 1.5em;
+    letter-spacing: -0.025em;
+}
+
+header.keynote h2 {
+    text-align: left;
+}

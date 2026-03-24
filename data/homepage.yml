@@ -1,13 +1,12 @@
 banner:
   enable: true
-  image: "/images/header-bg.jpg"
+  image: "images/header-bg.jpg"
   contents: "BSides Atlanta 2026 - TBA"
   # button:
   #   contents: "Register"
   #   url: "#"
 
 items:
-
   - type: heading
     size: major
     heading: Thank you for a successful BSides Atlanta 2025!
@@ -32,7 +31,6 @@ items:
   # - type: cta
   #   contents: We are currently sold out!<br>Stay tuned to this space for next year.
 
-
   #- type: keynote
   #  heading: Keynote - Zack Tisher
   #  contents: "Every security professional knows the grind — long hours, unpredictable conditions, and the constant push to adapt when fatigue hits. In that way, cybersecurity and ultrarunning have a lot in common. Drawing on years of experience leading security transformations at Home Depot and Equifax and competing in 50-mile and 100-mile mountain races, Zach Tisher explores how endurance thinking, shared purpose, and community can transform how we approach modern defense."
@@ -55,81 +53,79 @@ items:
     heading: Thank you to our sponsors
     contents: Your support makes this event possible
 
-
-
   - type: sponsors
-    width: 4  # 12 divided by width is number of sponsors per row
+    width: 4 # 12 divided by width is number of sponsors per row
     sponsor_type: diamond
     heading: Diamond Sponsors
-  
+
   - type: sponsors
-    width: 4  # 12 divided by width is number of sponsors per row
+    width: 4 # 12 divided by width is number of sponsors per row
     heading: Gold Sponsors
     sponsor_type: gold
     items:
-    - name: KSU
-      logo: "/sponsors/ksu-iss.jpg"
-      link: "http://coles.kennesaw.edu/information-systems/"
-    - name: KSU
-      logo: "/sponsors/coles.png"
-      link: "https://www.kennesaw.edu/coles/"
-    - name: WhiteBox Security
-      logo: "/sponsors/whitebox.jpg"
-      link: "https://whiteboxsec.com"
-    
+      - name: KSU
+        logo: "/sponsors/ksu-iss.jpg"
+        link: "http://coles.kennesaw.edu/information-systems/"
+      - name: KSU
+        logo: "/sponsors/coles.png"
+        link: "https://www.kennesaw.edu/coles/"
+      - name: WhiteBox Security
+        logo: "/sponsors/whitebox.jpg"
+        link: "https://whiteboxsec.com"
+
   - type: sponsors
-    width: 4  # 12 divided by width is number of sponsors per row
+    width: 4 # 12 divided by width is number of sponsors per row
     heading: Crystal Sponsors
     sponsor_type: crystal
     items:
-    - name: Intuit
-      logo: "/sponsors/intuit.png"
-      link: "https://www.intuit.com"
-  
+      - name: Intuit
+        logo: "/sponsors/intuit.png"
+        link: "https://www.intuit.com"
+
   - type: sponsors
-    width: 4  # 12 divided by width is number of sponsors per row
+    width: 4 # 12 divided by width is number of sponsors per row
     heading: Silver Sponsor
     sponsor_type: silver
     items:
-    - name: Blue Ridge Consultants
-      logo: "/sponsors/blue_ridge_consultants.svg"
-      link: "https://www.blueridge.cx"
-    - name: Bishop Fox
-      logo: "/sponsors/bishopfox.png"
-      link: "https://bishopfox.com"
-    - name: Amplifier Security
-      logo: "/sponsors/amplifier_security.png"
-      link: "https://www.amplifiersecurity.com"
+      - name: Blue Ridge Consultants
+        logo: "/sponsors/blue_ridge_consultants.svg"
+        link: "https://www.blueridge.cx"
+      - name: Bishop Fox
+        logo: "/sponsors/bishopfox.png"
+        link: "https://bishopfox.com"
+      - name: Amplifier Security
+        logo: "/sponsors/amplifier_security.png"
+        link: "https://www.amplifiersecurity.com"
 
   - type: sponsors
-    width: 4  # 12 divided by width is number of sponsors per row
+    width: 4 # 12 divided by width is number of sponsors per row
     heading: Bronze Sponsor
     sponsor_type: bronze
     items:
-    - name: Rapid7
-      logo: "/sponsors/rapid7.png"
-      link: "https://www.rapid7.com"
-    
+      - name: Rapid7
+        logo: "/sponsors/rapid7.png"
+        link: "https://www.rapid7.com"
+
   - type: sponsors
-    width: 4  # 12 divided by width is number of sponsors per row
+    width: 4 # 12 divided by width is number of sponsors per row
     heading: In-Kind Sponsors
     sponsor_type: inkind
     items:
-    - name: Kammerdiener Technologies 
-      logo: "/sponsors/kammerdiener.png"
-      link: "https://k-tech.io/"
-    - name: Atlanta Locksport
-      logo: "/sponsors/atlanta_locksport.jpg"
-      link: "https://atlantalocksport.org"
-    - name: Hack Defender
-      logo: "/sponsors/hack_defender.png"
-      link: "https://www.hackdefender.org"
-    - name: no starch press
-      logo: "/sponsors/nostarchpress.png"
-      link: "https://nostarch.com"
-    - name: Offensive Security
-      logo: "/sponsors/OffSec_Logo.jpeg"
-      link: "https://www.offsec.com"
+      - name: Kammerdiener Technologies
+        logo: "/sponsors/kammerdiener.png"
+        link: "https://k-tech.io/"
+      - name: Atlanta Locksport
+        logo: "/sponsors/atlanta_locksport.jpg"
+        link: "https://atlantalocksport.org"
+      - name: Hack Defender
+        logo: "/sponsors/hack_defender.png"
+        link: "https://www.hackdefender.org"
+      - name: no starch press
+        logo: "/sponsors/nostarchpress.png"
+        link: "https://nostarch.com"
+      - name: Offensive Security
+        logo: "/sponsors/OffSec_Logo.jpeg"
+        link: "https://www.offsec.com"
 
   # - type: cta
   #   contents: Interested in speaking at BSides Atlanta?

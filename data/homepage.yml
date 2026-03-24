@@ -64,13 +64,13 @@ items:
     sponsor_type: gold
     items:
       - name: KSU
-        logo: "/bsidesatl.info/sponsors/ksu-iss.jpg"
+        logo: "/sponsors/ksu-iss.jpg"
         link: "http://coles.kennesaw.edu/information-systems/"
       - name: KSU
-        logo: "/bsidesatl.info/sponsors/coles.png"
+        logo: "/sponsors/coles.png"
         link: "https://www.kennesaw.edu/coles/"
       - name: WhiteBox Security
-        logo: "/bsidesatl.info/sponsors/whitebox.jpg"
+        logo: "/sponsors/whitebox.jpg"
         link: "https://whiteboxsec.com"
 
   - type: sponsors
@@ -79,7 +79,7 @@ items:
     sponsor_type: crystal
     items:
       - name: Intuit
-        logo: "/bsidesatl.info/sponsors/intuit.png"
+        logo: "/sponsors/intuit.png"
         link: "https://www.intuit.com"
 
   - type: sponsors
@@ -88,13 +88,13 @@ items:
     sponsor_type: silver
     items:
       - name: Blue Ridge Consultants
-        logo: "/bsidesatl.info/sponsors/blue_ridge_consultants.svg"
+        logo: "/sponsors/blue_ridge_consultants.svg"
         link: "https://www.blueridge.cx"
       - name: Bishop Fox
-        logo: "/bsidesatl.info/sponsors/bishopfox.png"
+        logo: "/sponsors/bishopfox.png"
         link: "https://bishopfox.com"
       - name: Amplifier Security
-        logo: "/bsidesatl.info/sponsors/amplifier_security.png"
+        logo: "/sponsors/amplifier_security.png"
         link: "https://www.amplifiersecurity.com"
 
   - type: sponsors
@@ -103,7 +103,7 @@ items:
     sponsor_type: bronze
     items:
       - name: Rapid7
-        logo: "/bsidesatl.info/sponsors/rapid7.png"
+        logo: "/sponsors/rapid7.png"
         link: "https://www.rapid7.com"
 
   - type: sponsors
@@ -112,19 +112,19 @@ items:
     sponsor_type: inkind
     items:
       - name: Kammerdiener Technologies
-        logo: "/bsidesatl.info/sponsors/kammerdiener.png"
+        logo: "/sponsors/kammerdiener.png"
         link: "https://k-tech.io/"
       - name: Atlanta Locksport
-        logo: "/bsidesatl.info/sponsors/atlanta_locksport.jpg"
+        logo: "/sponsors/atlanta_locksport.jpg"
         link: "https://atlantalocksport.org"
       - name: Hack Defender
-        logo: "/bsidesatl.info/sponsors/hack_defender.png"
+        logo: "/sponsors/hack_defender.png"
         link: "https://www.hackdefender.org"
       - name: no starch press
-        logo: "/bsidesatl.info/sponsors/nostarchpress.png"
+        logo: "/sponsors/nostarchpress.png"
         link: "https://nostarch.com"
       - name: Offensive Security
-        logo: "/bsidesatl.info/sponsors/OffSec_Logo.jpeg"
+        logo: "/sponsors/OffSec_Logo.jpeg"
         link: "https://www.offsec.com"
 
   # - type: cta

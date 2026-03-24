@@ -1,7 +1,7 @@
 baseURL = "https://www.bsidesatl.info/"
 languageCode = "en-us"
 title = "BSides Atlanta"
-#theme = "hugo-arcana"
+theme = "hugo-arcana"
 copyright = "© PrimeHarbor. All rights reserved"
 
 [taxonomies]

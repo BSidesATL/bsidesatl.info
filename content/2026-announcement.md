@@ -1,6 +1,6 @@
 ---
 title: "BSides Atlanta 2026 Announcement"
-date: 2024-03-25
+date: 2026-03-25
 image: /images/bsides-twitter-card.png
 ----
 

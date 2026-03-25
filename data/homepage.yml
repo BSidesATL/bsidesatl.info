@@ -65,7 +65,7 @@ items:
     items:
       - name: KSU
         logo: "/sponsors/ksu-iss.jpg"
-        link: "http://coles.kennesaw.edu/information-systems/"
+        link: "https://coles.kennesaw.edu/information-systems/"
       - name: KSU
         logo: "/sponsors/coles.png"
         link: "https://www.kennesaw.edu/coles/"

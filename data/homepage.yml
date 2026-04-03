@@ -78,15 +78,6 @@ items:
 
   - type: sponsors
     width: 4 # 12 divided by width is number of sponsors per row
-    heading: Crystal Sponsors
-    sponsor_type: crystal
-  #  items:
-  #    - name: Intuit
-  #      logo: "/sponsors/intuit.png"
-  #      link: "https://www.intuit.com"
-
-  - type: sponsors
-    width: 4 # 12 divided by width is number of sponsors per row
     heading: Silver Sponsor
     sponsor_type: silver
   #  items:

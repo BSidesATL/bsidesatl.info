@@ -48,13 +48,13 @@ items:
   #     contents: Volunteer
   #     url: "https://signup.com/go/QedDETi"
 
+  - type: cta
+    contents: Interested in sponsoring BSides Atlanta?  Email us at <a href="mailto:sponsorships@bsidesatl.info">sponsorships@bsidesatl.info</a>
+
   - type: heading
     size: major
     heading: Thank you to our sponsors
     contents: Your support makes this event possible
-
-  - type: cta
-    contents: Interested in sponsoring BSides Atlanta?  Email us at <a href="mailto:sponsorships@bsidesatl.info">sponsorships@bsidesatl.info</a>
 
   - type: sponsors
     width: 4 # 12 divided by width is number of sponsors per row

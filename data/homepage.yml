@@ -27,7 +27,7 @@ items:
     contents: Early Bird Ticket Sales Open Monday, April 6th at 12pm Eastern!
     button:
       contents: Register here
-      url: "https://ti.to/bsidesatl/2026"
+      url: "https://ti.to/bsidesatl/2026?source=bsides"
   # - type: cta
   #   contents: We are currently sold out!<br>Stay tuned to this space for next year.
 

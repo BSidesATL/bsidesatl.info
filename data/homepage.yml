@@ -23,11 +23,11 @@ items:
   #    contents: Register here
   #    url: "https://ti.to/bsidesatl/2025"
 
-  #- type: cta
-  #  contents: Personal Sponsorship Ticket Sales Open Monday, September 22nd at 9am Eastern!
-  #  button:
-  #    contents: Register here
-  #    url: "https://ti.to/bsidesatl/2025"
+  - type: cta
+    contents: Early Bird Ticket Sales Open Monday, April 6th at 12pm Eastern!
+    button:
+      contents: Register here
+      url: "https://ti.to/bsidesatl/2026"
   # - type: cta
   #   contents: We are currently sold out!<br>Stay tuned to this space for next year.
 

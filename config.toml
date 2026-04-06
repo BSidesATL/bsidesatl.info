@@ -10,9 +10,9 @@ theme = "hugo-arcana"
     #[[menus.main]]
     #    url = "https://pretalx.com/bsidesatl-2025/cfp"
     #    name = "CFP"
-    #[[menus.main]]
-    #    url = "https://ti.to/bsidesatl/2025"
-    #    name = "Tickets"
+    [[menus.main]]
+        url = "https://ti.to/bsidesatl/2026"
+        name = "Tickets"
     [[menus.main]]
         url = "https://bit.ly/bsidesatl-discord"
         name = "Discord"

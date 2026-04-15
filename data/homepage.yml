@@ -80,10 +80,10 @@ items:
     width: 4 # 12 divided by width is number of sponsors per row
     heading: Silver Sponsor
     sponsor_type: silver
-  #  items:
-  #    - name: Blue Ridge Consultants
-  #      logo: "/sponsors/blue_ridge_consultants.svg"
-  #      link: "https://www.blueridge.cx"
+    items:
+      - name: ThreatLocker
+        logo: "/sponsors/2026/threatlocker.png"
+        link: "https://www.threatlocker.com"
   #    - name: Bishop Fox
   #      logo: "/sponsors/bishopfox.png"
   #      link: "https://bishopfox.com"

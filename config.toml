@@ -16,9 +16,9 @@ theme = "hugo-arcana"
     [[menus.main]]
         url = "https://bit.ly/bsidesatl-discord"
         name = "Discord"
-    [[menus.main]]
-        url = "https://pretalx.com/bsidesatl-2025/schedule/"
-        name = "Schedule"
+    #[[menus.main]]
+    #    url = "https://pretalx.com/bsidesatl-2025/schedule/"
+    #    name = "Schedule"
     #[[menus.main]]
     #    url = "https://signup.com/go/HYYvwga"
     #    name = "Volunteer Signup"

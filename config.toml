@@ -11,7 +11,7 @@ theme = "hugo-arcana"
     #    url = "https://pretalx.com/bsidesatl-2025/cfp"
     #    name = "CFP"
     [[menus.main]]
-        url = "https://ti.to/bsidesatl/2026"
+        url = "https://ti.to/bsidesatl/2026?source=bsides"
         name = "Tickets"
     [[menus.main]]
         url = "https://bit.ly/bsidesatl-discord"

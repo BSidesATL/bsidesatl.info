@@ -2,7 +2,7 @@
 title: "About BSides Atlanta"
 description: "BSides is a community run event"
 menu: main
-weight: 50
+weight: 90
 # image: images/banner.jpg
 # image_alt: "Hello!"
 # tags: ["examples", "content", "sidebar"]

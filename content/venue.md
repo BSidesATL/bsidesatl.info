@@ -23,6 +23,6 @@ To book additional nights other than October 2nd, contact the hotel directly at 
 
 Parking is available on-site the day of the event for $23 which includes in/out privileges.
 
-The Georgia Tech Hotel and Conference Center is accessible via the MARTA Midtown station and the Georgia Tech Stinger Shuttle. The shuttle is free to ride and stops on 5th Street across from the hotel. Board the Stinger Shuttle on Peachtree Street near the MARTA station entrance (11), and exit after two stops at Technology Square (13). Walk back to Spring Street to access the hotel on the corner of Spring and 5th (8). 
+The Georgia Tech Hotel and Conference Center is accessible via the [MARTA](https://itsmarta.com/) Midtown station and the [Georgia Tech Stinger Shuttle](https://bus.gatech.edu/routes/29/stops). The shuttle is free to ride and stops on 5th Street across from the hotel. Board the Stinger Shuttle on Peachtree Street near the MARTA station entrance (11), and exit after two stops at Technology Square (13). Walk back to Spring Street to access the hotel on the corner of Spring and 5th (8). 
 
 ![Stinger Shuttle](/images/stinger-gold.png) 

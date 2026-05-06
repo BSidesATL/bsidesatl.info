@@ -57,9 +57,13 @@ items:
     contents: Your support makes this event possible
 
   - type: sponsors
-    width: 4 # 12 divided by width is number of sponsors per row
+    width: 6 # 12 divided by width is number of sponsors per row
     sponsor_type: diamond
     heading: Diamond Sponsors
+    items:
+      - name: Risk3Sixty
+        logo: "/sponsors/2026/risk3sixty.png"
+        link: "https://risk3sixty.com"
 
   - type: sponsors
     width: 4 # 12 divided by width is number of sponsors per row

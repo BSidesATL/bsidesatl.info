@@ -82,7 +82,7 @@ items:
 
   - type: sponsors
     width: 4 # 12 divided by width is number of sponsors per row
-    heading: Silver Sponsor
+    heading: Silver Sponsors
     sponsor_type: silver
     items:
       - name: ThreatLocker
@@ -96,13 +96,19 @@ items:
   #      link: "https://www.amplifiersecurity.com"
 
   - type: sponsors
+    width: 4
+    heading: Featured Sponsors
+    sponsor_type: featured
+
+  - type: sponsors
     width: 4 # 12 divided by width is number of sponsors per row
-    heading: Bronze Sponsor
+    heading: Bronze Sponsors
     sponsor_type: bronze
   #  items:
   #    - name: Rapid7
   #      logo: "/sponsors/rapid7.png"
   #      link: "https://www.rapid7.com"
+
 
   - type: sponsors
     width: 4 # 12 divided by width is number of sponsors per row

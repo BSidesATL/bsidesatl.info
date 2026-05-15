@@ -1,0 +1,13 @@
+<div class="pdf-container" style="margin-bottom: 20px;">
+    <object data="{{ .Get "url" }}" type="application/pdf" width="100%" height="600px">
+        <p>It appears your browser doesn't support embedded PDFs. 
+           <a href="{{ .Get "url" }}">Click here to view the PDF.</a>
+        </p>
+    </object>
+    
+    <div style="margin-top: 10px; text-align: center;">
+        <a href="{{ .Get "url" }}" download class="download-button" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">
+            Download PDF
+        </a>
+    </div>
+</div>

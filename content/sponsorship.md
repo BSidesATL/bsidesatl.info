@@ -1,6 +1,5 @@
 ---
 title: "BSidesATL 2026 Sponsorship"
-date: 2024-05-14
 draft: false
 # Explicitly ensuring it is not in the main menu
 menu: "" 

@@ -1,5 +1,5 @@
 ---
-title: "BSidesATL 2026 Sponsorship"
+title: "BSides Atlanta 2026 Sponsorship"
 draft: false
 # Explicitly ensuring it is not in the main menu
 menu: "" 

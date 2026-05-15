@@ -8,5 +8,5 @@ menu: ""
 
 Below you will find the sponsorship prospectus for BSides Atlanta 2026. You can view the document directly in your browser or download it for offline reading.
 
-{{< embed-pdf url="http://bsidesatl.info/documents/bsidesatl-sponsor-2026.pdf" >}}
+{{< embed-pdf url="/documents/bsidesatl-sponsor-2026.pdf" >}}
 

@@ -64,9 +64,6 @@ items:
       - name: Risk3Sixty
         logo: "/sponsors/2026/risk3sixty.png"
         link: "https://risk3sixty.com"
-      - name: 7AI
-        logo: "/sponsors/2026/7ai.png"
-        link: "https://7ai.com/"
 
   - type: sponsors
     width: 4 # 12 divided by width is number of sponsors per row

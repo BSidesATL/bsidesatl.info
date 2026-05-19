@@ -91,6 +91,9 @@ items:
       - name: ThreatLocker
         logo: "/sponsors/2026/threatlocker.png"
         link: "https://www.threatlocker.com"
+      - name: Raxis
+        logo: "/sponsors/2026/raxis.png"
+        link: "https://raxis.com"
   #    - name: Bishop Fox
   #      logo: "/sponsors/bishopfox.png"
   #      link: "https://bishopfox.com"

@@ -1,6 +1,6 @@
 <section class="wrapper style2">
     <div class="container">
-        {{ with .item.heading }}<h2 style="text-align: center;">{{ . }}</h2>{{ end }}
+        {{ with .item.heading }}<h2><center>{{ . }}</center></h2>{{ end }}
         {{ if not .item.items }}
             <div class="col-md-12 col-sm-12 col" style="text-align: center">
             <a href="{{ .item.alternate }}">Your company logo here</a>
@@ -12,9 +12,9 @@
             {{- $item_cols := .item.width }}
             {{- range .item.items }}
                 <section class="col-{{ $item_cols }}">
-                <div class="box highlight" style="display: flex; align-items: center; justify-content: center; height: 100%; min-height: 150px;">
+                <div class="box highlight">
                   {{ if .link }}
-                    <a href="{{ .link }}" target="_blank" style="display: block;">
+                    <a href="{{ .link }}" target="_blank">
                       <img src="{{ .logo | absURL }}" class="{{ $sponsor_type }}-sponsor img-responsive img-centered" alt="{{ .name }}">
                     </a>
                   {{ else }}

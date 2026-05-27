@@ -18,6 +18,8 @@
                 {{- partial (printf "homepage/blocks/%s.html" .type) (dict "ctx" $ "item" .) }}
             {{- end }}
 
+            {{- partial "homepage/email-signup.html" . -}}
+
             {{- partial "footer/footer.html" . -}}
         </div>
         {{- partial "scripts.html" . -}}

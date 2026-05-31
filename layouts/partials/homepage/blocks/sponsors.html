@@ -3,7 +3,7 @@
         {{ with .item.heading }}<h2 style="text-align: center;">{{ . }}</h2>{{ end }}
         {{ if not .item.items }}
             <div class="col-md-12 col-sm-12 col" style="text-align: center">
-            <a href="{{ .item.alternate }}">Your company logo here</a>
+                <a href="{{ .item.alternate }}">Your company logo here</a>
             </div>
         {{ else }}
 
@@ -12,20 +12,28 @@
             {{- $item_cols := .item.width }}
             {{- range .item.items }}
                 <section class="col-{{ $item_cols }}">
-                <div class="box highlight" style="display: flex; align-items: center; justify-content: center; height: 100%; min-height: 150px;">
-                  {{ if .link }}
-                    <a href="{{ .link }}" target="_blank" style="display: block;">
-                      <img src="{{ .logo | absURL }}" class="{{ $sponsor_type }}-sponsor img-responsive img-centered" alt="{{ .name }}">
-                    </a>
-                  {{ else }}
-                    <img src="{{ .logo | absURL }}" class="{{ $sponsor_type }}-sponsor img-responsive img-centered" alt="">
-                  {{ end }}
-                </div>
+                    <div class="box highlight" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-height: 180px; padding: 20px;">                        
+
+                        {{ with .event_part }}
+                            <div class="sponsor-caption" style="margin-top: 5px; font-weight: bold; font-size: 1.5em; width: 100%;">
+                                {{ . }}
+                            </div>
+                        {{ end }}
+                        
+                        <div style="display: flex; align-items: center; justify-content: center; flex-grow: 1;">
+                          {{ if .link }}
+                            <a href="{{ .link }}" target="_blank" style="display: block;">
+                              <img src="{{ .logo | absURL }}" class="{{ $sponsor_type }}-sponsor img-responsive img-centered" alt="{{ .name }}">
+                            </a>
+                          {{ else }}
+                            <img src="{{ .logo | absURL }}" class="{{ $sponsor_type }}-sponsor img-responsive img-centered" alt="{{ .name }}">
+                          {{ end }}
+                        </div>
+                        
+                    </div>
                 </section>
             {{- end }}
         </div>
         {{- end }}
     </div>
 </section>
-
-

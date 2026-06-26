@@ -97,6 +97,9 @@ items:
       - name: Semgrep
         logo: "/sponsors/2026/semgrep.jpg"
         link: "https://semgrep.dev"
+      - name: TrustedSec
+        logo: "/sponsors/2026/trustedsec.png"
+        link: "https://trustedsec.com"
   #    - name: Amplifier Security
   #      logo: "/sponsors/amplifier_security.png"
   #      link: "https://www.amplifiersecurity.com"

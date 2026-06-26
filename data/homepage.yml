@@ -115,7 +115,7 @@ items:
         event_part: "Afterparty Sponsor"
 
   - type: sponsors
-    width: 4 # 12 divided by width is number of sponsors per row
+    width: 3 # 12 divided by width is number of sponsors per row
     heading: Bronze Sponsors
     sponsor_type: bronze
   #  items:
@@ -125,7 +125,7 @@ items:
 
 
   - type: sponsors
-    width: 4 # 12 divided by width is number of sponsors per row
+    width: 3 # 12 divided by width is number of sponsors per row
     heading: In-Kind Sponsors
     sponsor_type: inkind
   #  items:

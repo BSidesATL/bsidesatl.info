@@ -6,6 +6,8 @@ weight: 45
 ---
 
 ## The BSides Atlanta 2026 Call for Content opens on Monday, July 6th
+\
+**Click here to submit:** [Call for Content Portal](https://pretalx.com/bsidesatl-2026/cfp)
 
 BSides is built by the community, for the community. Whether you are a seasoned industry veteran or looking to give your very first presentation, we want to hear your unique perspectives, research, and ideas.
 

@@ -100,6 +100,9 @@ items:
       - name: TrustedSec
         logo: "/sponsors/2026/trustedsec.png"
         link: "https://trustedsec.com"
+      - name: "Security Onion Solutions"
+        logo: "/sponsors/2026/seconion.png"
+        link: "https://securityonionsolutions.com/"
   #    - name: Amplifier Security
   #      logo: "/sponsors/amplifier_security.png"
   #      link: "https://www.amplifiersecurity.com"

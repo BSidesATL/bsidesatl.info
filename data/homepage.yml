@@ -24,7 +24,13 @@ items:
   #    url: "https://ti.to/bsidesatl/2025"
 
   - type: cta
-    contents: Early Bird Ticket Sales Open Monday, April 6th at 12pm Eastern!
+    contents: The Call for Content (Talks, Contests, Villages, Workshops) is open through July 26th!
+    button:
+      contents: Submit here
+      url: "https://pretalx.com/bsidesatl-2026/cfp"
+
+  - type: cta
+    contents: BSides Atlanta 2026 tickets are now on sale!
     button:
       contents: Register here
       url: "https://ti.to/bsidesatl/2026?source=bsides"

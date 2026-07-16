@@ -5,7 +5,7 @@ menu: main
 weight: 45
 ---
 
-## The BSides Atlanta 2026 Call for Content opens on Monday, July 6th
+## The BSides Atlanta 2026 Call for Content is open Monday, July 6th through Sunday, July 26th
 \
 **Click here to submit:** [Call for Content Portal](https://pretalx.com/bsidesatl-2026/cfp)
 

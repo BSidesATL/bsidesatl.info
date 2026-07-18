@@ -48,8 +48,8 @@ items:
   #     contents: Check it Out!
   #     url: "https://pretalx.com/bsidesatl-2023/schedule/"
 
-  # - type: cta
-  #   contents: We cannot do this event with out your help.
+  - type: cta
+    contents: We cannot do this event without your help. <br class="hidden md:inline"> The Call for Volunteers will open on Monday, July 27th.
   #   button:
   #     contents: Volunteer
   #     url: "https://signup.com/go/QedDETi"

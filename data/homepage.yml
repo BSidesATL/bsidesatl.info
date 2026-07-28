@@ -49,10 +49,10 @@ items:
   #     url: "https://pretalx.com/bsidesatl-2023/schedule/"
 
   - type: cta
-    contents: We cannot do this event without your help. <br class="hidden md:inline"> The Call for Volunteers will open on Monday, July 27th.
-  #   button:
-  #     contents: Volunteer
-  #     url: "https://signup.com/go/QedDETi"
+    contents: We cannot do this event without your help. <br class="hidden md:inline"> The Call for Volunteers is open!
+     button:
+       contents: Volunteer
+       url: "https://signup.com/go/bSvQWmh"
 
   - type: cta
     contents: Interested in sponsoring BSides Atlanta?  Email us at <a href="mailto:sponsorships@bsidesatl.info">sponsorships@bsidesatl.info</a>

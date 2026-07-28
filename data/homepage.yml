@@ -50,9 +50,9 @@ items:
 
   - type: cta
     contents: We cannot do this event without your help. <br class="hidden md:inline"> The Call for Volunteers is open!
-     button:
-       contents: Volunteer
-       url: "https://signup.com/go/bSvQWmh"
+    button:
+      contents: Volunteer
+      url: "https://signup.com/go/bSvQWmh"
 
   - type: cta
     contents: Interested in sponsoring BSides Atlanta?  Email us at <a href="mailto:sponsorships@bsidesatl.info">sponsorships@bsidesatl.info</a>
@@ -131,7 +131,6 @@ items:
   #    - name: Rapid7
   #      logo: "/sponsors/rapid7.png"
   #      link: "https://www.rapid7.com"
-
 
   - type: sponsors
     width: 3 # 12 divided by width is number of sponsors per row

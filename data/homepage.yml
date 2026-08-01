@@ -109,6 +109,9 @@ items:
       - name: "Security Onion Solutions"
         logo: "/sponsors/2026/seconion.png"
         link: "https://securityonionsolutions.com/"
+      - name: "Blue Ridge Consulting"
+        logo: "/sponsors/2026/blueridge.png"
+        link: "https://blueridge.cx/"
   #    - name: Amplifier Security
   #      logo: "/sponsors/amplifier_security.png"
   #      link: "https://www.amplifiersecurity.com"

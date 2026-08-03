@@ -28,8 +28,9 @@ buildFuture = false
 
 
 [params]
-    description = "Saturday, October 3rd, 2026 - Georgia Tech Hotel & Conference Center - 800 Spring St. NW, Atlanta, GA"
+    description = "BSides Atlanta, a community-run cybersecurity conference, will be held on Saturday, October 3rd, 2026 at the Georgia Tech Hotel & Conference Center - 800 Spring St. NW, Atlanta, GA"
     show_post_dates = true
+    images = ['images/bsides-twitter-card.png']
 
     [[params.social]]
         title = "Mastodon"

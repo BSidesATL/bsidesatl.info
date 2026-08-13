@@ -24,9 +24,9 @@ items:
   #    url: "https://ti.to/bsidesatl/2025"
 
   - type: cta
-    contents: The Call for Content (Talks, Contests, Villages, Workshops) is open through July 26th!
+    contents: The Call for Content (Talks, Contests, Villages, Workshops) is now closed.
     button:
-      contents: Submit here
+      contents: CFP Portal
       url: "https://pretalx.com/bsidesatl-2026/cfp"
 
   - type: cta

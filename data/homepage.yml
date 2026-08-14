@@ -156,6 +156,16 @@ items:
   #      logo: "/sponsors/OffSec_Logo.jpeg"
   #      link: "https://www.offsec.com"
 
+  - type: sponsors
+    width: 3 # 12 divided by width is number of sponsors per row
+    heading: Community Partners
+    sponsor_type: partner
+    items:
+      - name: Infragard Atlanta Members Alliance
+        logo: "/partners/iama.png"
+        link: "https://infragardatlanta.org/"
+
+
   # - type: cta
   #   contents: Interested in speaking at BSides Atlanta?
   #   button:

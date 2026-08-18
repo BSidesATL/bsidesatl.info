@@ -164,6 +164,12 @@ items:
       - name: Infragard Atlanta Members Alliance
         logo: "/partners/iama.png"
         link: "https://infragardatlanta.org/"
+      - name: Atlanta Women In Cyber
+        logo: "/partners/awic.png"
+        link: "https://www.linkedin.com/company/atlanta-women-in-cyber/"
+      - name: CSA ATL
+        logo: "/partners/csa-atl.png"
+        link: "https://csa-atl.org/"
 
 
   # - type: cta

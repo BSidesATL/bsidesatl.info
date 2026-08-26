@@ -139,13 +139,13 @@ items:
   #      link: "https://www.rapid7.com"
 
   - type: sponsors
-    width: 3 # 12 divided by width is number of sponsors per row
+    width: 4 # 12 divided by width is number of sponsors per row
     heading: In-Kind Sponsors
     sponsor_type: inkind
-  #  items:
-  #    - name: Kammerdiener Technologies
-  #      logo: "/sponsors/kammerdiener.png"
-  #      link: "https://k-tech.io/"
+    items:
+      - name: No Starch Press
+        logo: "/sponsors/2026/nostarch.png"
+        link: "https://nostarch.com/"
   #    - name: Atlanta Locksport
   #      logo: "/sponsors/atlanta_locksport.jpg"
   #      link: "https://atlantalocksport.org"

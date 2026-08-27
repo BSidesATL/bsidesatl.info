@@ -133,10 +133,10 @@ items:
     width: 3 # 12 divided by width is number of sponsors per row
     heading: Bronze Sponsors
     sponsor_type: bronze
-  #  items:
-  #    - name: Rapid7
-  #      logo: "/sponsors/rapid7.png"
-  #      link: "https://www.rapid7.com"
+    items:
+      - name: Starseer
+        logo: "/sponsors/2026/starseer.png"
+        link: "https://starseer.ai"
 
   - type: sponsors
     width: 4 # 12 divided by width is number of sponsors per row

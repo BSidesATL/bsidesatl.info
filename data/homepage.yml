@@ -115,6 +115,9 @@ items:
       - name: "Bedrock Data"
         logo: "/sponsors/2026/bedrock.png"
         link: "https://bedrockdata.ai/"
+      - name: "Flashpoint"
+        logo: "/sponsors/2026/flashpoint.png"
+        link: "https://flashpoint.io/"
   #    - name: Amplifier Security
   #      logo: "/sponsors/amplifier_security.png"
   #      link: "https://www.amplifiersecurity.com"

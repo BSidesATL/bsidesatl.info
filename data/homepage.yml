@@ -118,6 +118,9 @@ items:
       - name: "Flashpoint"
         logo: "/sponsors/2026/flashpoint.png"
         link: "https://flashpoint.io/"
+      - name: "Cotool"
+        logo: "/sponsors/2026/cotool.jpg"
+        link: "https://cotool.ai/"
   #    - name: Amplifier Security
   #      logo: "/sponsors/amplifier_security.png"
   #      link: "https://www.amplifiersecurity.com"

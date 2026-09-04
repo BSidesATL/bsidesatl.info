@@ -176,6 +176,9 @@ items:
       - name: CSA ATL
         logo: "/partners/csa-atl.png"
         link: "https://csa-atl.org/"
+      - name: Coles College of Business
+        logo: "/partners/coles.png"
+        link: "https://campus.kennesaw.edu/colleges-departments/coles/"
 
 
   # - type: cta

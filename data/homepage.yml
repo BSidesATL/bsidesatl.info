@@ -75,13 +75,13 @@ items:
         link: "https://7ai.com/"
 
   - type: sponsors
-    width: 4 # 12 divided by width is number of sponsors per row
+    width: 6 # 12 divided by width is number of sponsors per row
     heading: Gold Sponsors
     sponsor_type: gold
-  #  items:
-  #    - name: KSU
-  #      logo: "/sponsors/ksu-iss.jpg"
-  #      link: "https://coles.kennesaw.edu/information-systems/"
+    items:
+      - name: Crogl
+        logo: "/sponsors/2026/crogl.png"
+        link: "https://crogl.com"
   #    - name: KSU
   #      logo: "/sponsors/coles.png"
   #      link: "https://www.kennesaw.edu/coles/"

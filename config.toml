@@ -19,9 +19,10 @@ buildFuture = false
         url = "https://bit.ly/bsidesatl-discord"
         name = "Discord"
 	weight = 70
-    #[[menus.main]]
-    #    url = "https://pretalx.com/bsidesatl-2025/schedule/"
-    #    name = "Schedule"
+    [[menus.main]]
+        url = "https://pretalx.com/bsidesatl-2026/schedule/"
+        name = "Schedule"
+        weight = 45
     #[[menus.main]]
     #    url = "https://signup.com/go/HYYvwga"
     #    name = "Volunteer Signup"

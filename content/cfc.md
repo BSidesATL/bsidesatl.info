@@ -1,7 +1,7 @@
 ---
 title: "Call for Content"
 draft: false
-menu: main
+menu: ""
 weight: 45
 ---
 

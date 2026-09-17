@@ -121,7 +121,10 @@ items:
       - name: "Cotool"
         logo: "/sponsors/2026/cotool.jpg"
         link: "https://cotool.ai/"
-  #    - name: Amplifier Security
+      - name: Starseer
+        logo: "/sponsors/2026/starseer.png"
+        link: "https://starseer.ai"
+ #    - name: Amplifier Security
   #      logo: "/sponsors/amplifier_security.png"
   #      link: "https://www.amplifiersecurity.com"
 
@@ -135,14 +138,14 @@ items:
         link: "https://bishopfox.com"
         event_part: "Afterparty Sponsor"
 
-  - type: sponsors
-    width: 3 # 12 divided by width is number of sponsors per row
-    heading: Bronze Sponsors
-    sponsor_type: bronze
-    items:
-      - name: Starseer
-        logo: "/sponsors/2026/starseer.png"
-        link: "https://starseer.ai"
+#  - type: sponsors
+#    width: 3 # 12 divided by width is number of sponsors per row
+#    heading: Bronze Sponsors
+#    sponsor_type: bronze
+#    items:
+#      - name: Starseer
+#        logo: "/sponsors/2026/starseer.png"
+#        link: "https://starseer.ai"
 
   - type: sponsors
     width: 4 # 12 divided by width is number of sponsors per row

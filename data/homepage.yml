@@ -138,10 +138,10 @@ items:
         link: "https://bishopfox.com"
         event_part: "Afterparty Sponsor"
 
-#  - type: sponsors
-#    width: 3 # 12 divided by width is number of sponsors per row
-#    heading: Bronze Sponsors
-#    sponsor_type: bronze
+  - type: sponsors
+    width: 3 # 12 divided by width is number of sponsors per row
+    heading: Bronze Sponsors
+    sponsor_type: bronze
 #    items:
 #      - name: Starseer
 #        logo: "/sponsors/2026/starseer.png"

@@ -42,11 +42,11 @@ items:
   #  contents: "Every security professional knows the grind — long hours, unpredictable conditions, and the constant push to adapt when fatigue hits. In that way, cybersecurity and ultrarunning have a lot in common. Drawing on years of experience leading security transformations at Home Depot and Equifax and competing in 50-mile and 100-mile mountain races, Zach Tisher explores how endurance thinking, shared purpose, and community can transform how we approach modern defense."
   #  image: /images/zack_tisher_headshot.jpeg
 
-  # - type: cta
-  #   contents: Schedule is Announced!
-  #   button:
-  #     contents: Check it Out!
-  #     url: "https://pretalx.com/bsidesatl-2023/schedule/"
+  - type: cta
+    contents: Schedule and Venue Floor Plan is on the Hacker Tracker App!
+    button:
+      contents: Get It Here
+      url: "https://hackertracker.app/apps"
 
   - type: cta
     contents: We cannot do this event without your help. <br class="hidden md:inline"> The Call for Volunteers is open!

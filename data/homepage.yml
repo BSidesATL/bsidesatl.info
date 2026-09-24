@@ -82,6 +82,9 @@ items:
       - name: Crogl
         logo: "/sponsors/2026/crogl.png"
         link: "https://crogl.com"
+      - name: Microsoft
+        logo: "/sponsors/2026/microsoft.png"
+        link: "https://microsoft.com/security"
   #    - name: KSU
   #      logo: "/sponsors/coles.png"
   #      link: "https://www.kennesaw.edu/coles/"
